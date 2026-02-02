@@ -1,0 +1,7 @@
+<map id="TorneoCalcio5.interfacciagrafica.ModificaSquadraController" name="TorneoCalcio5.interfacciagrafica.ModificaSquadraController">
+<area shape="rect" id="Node000001" title=" " alt="" coords="104,120,315,163"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html" title=" " alt="" coords="5,13,200,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,49,192,119,187,120,123,54"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html" title=" " alt="" coords="224,5,410,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="290,58,230,122,227,117,285,60"/>
+</map>

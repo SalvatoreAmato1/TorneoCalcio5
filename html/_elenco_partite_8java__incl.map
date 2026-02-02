@@ -1,0 +1,7 @@
+<map id="src/main/java/TorneoCalcio5/logica/ElencoPartite.java" name="src/main/java/TorneoCalcio5/logica/ElencoPartite.java">
+<area shape="rect" id="Node000001" title="Gestisce lo storico delle partite." alt="" coords="69,5,256,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,128,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,48,95,88,92,83,135,50"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="152,96,365,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,46,234,86,229,86,186,51"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="src/main/java/TorneoCalcio5/interfacciagrafica/HomeController.java" name="src/main/java/TorneoCalcio5/interfacciagrafica/HomeController.java">
+<area shape="rect" id="Node000001" title="Controller principale della finestra Home." alt="" coords="387,5,634,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,192,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="414,51,207,95,206,90,414,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="216,96,402,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="466,48,371,92,369,87,461,49"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="427,104,594,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="512,47,513,90,508,87,509,50"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="618,104,742,131"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="551,46,645,97,640,96,550,51"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="766,104,901,131"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="587,46,775,99,770,100,586,51"/>
+</map>

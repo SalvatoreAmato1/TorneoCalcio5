@@ -1,0 +1,13 @@
+<map id="src/main/java/TorneoCalcio5/interfacciagrafica/InserimentoPartitaController.java" name="src/main/java/TorneoCalcio5/interfacciagrafica/InserimentoPartitaController.java">
+<area shape="rect" id="Node000001" title="Gestisce l&#39;inserimento di una nuova partita." alt="" coords="371,5,567,64"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,112,192,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="373,61,193,110,192,105,368,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="216,120,384,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="421,64,336,114,334,109,416,65"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="407,120,531,147"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="471,62,471,106,467,103,467,66"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="555,120,762,147"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="526,62,623,113,617,112,525,67"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="787,120,981,147"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="568,56,818,116,812,116,568,62"/>
+</map>
