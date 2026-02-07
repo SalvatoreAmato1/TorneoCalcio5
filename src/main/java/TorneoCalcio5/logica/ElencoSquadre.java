@@ -2,6 +2,7 @@ package TorneoCalcio5.logica;
 
 import java.util.ArrayList;
 import java.util.Comparator;
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 /**
@@ -19,7 +20,7 @@ public class ElencoSquadre {
     private class Comparatore implements Comparator<Squadra> {
         @Override
         public int compare(Squadra s1, Squadra s2) {
-            return 0;
+            return Integer.compare(s2.getPunteggio(), s1.getPunteggio());
         }
     }
 
@@ -28,6 +29,8 @@ public class ElencoSquadre {
      * @post L'elenco viene inizializzato come vuoto.
      */
     public ElencoSquadre() {
+        elenco = new ArrayList<>();
+        elencoOrdinato = FXCollections.observableArrayList();
     }
 
     /**
@@ -35,6 +38,8 @@ public class ElencoSquadre {
      * @param[in] s La squadra da aggiungere.
      */
     public void addSquadra(Squadra s) {
+        elenco.add(s);
+        aggiornaElenco();
     }
 
     /**
@@ -43,7 +48,9 @@ public class ElencoSquadre {
      * @return true se rimossa con successo.
      */
     public boolean removeSquadra(Squadra s) {
-        return false;
+        boolean res = elenco.remove(s);
+        aggiornaElenco();
+        return res;
     }
 
     /**
@@ -52,6 +59,9 @@ public class ElencoSquadre {
      * @param[in] nuova I nuovi dati da copiare.
      */
     public void modificaSquadra(Squadra vecchia, Squadra nuova) {
+        vecchia.setNome(nuova.getNome());
+        vecchia.setGiocatori(new ArrayList<>(nuova.getGiocatori()));
+        aggiornaElenco();
     }
 
     /**
@@ -59,8 +69,13 @@ public class ElencoSquadre {
      * @return ObservableList ordinata.
      */
     public ObservableList<Squadra> getElencoOrdinato() {
-        return null;
+        return elencoOrdinato;
     }
+    
+    //public ArrayList<Squadra> getElencoBase() { 
+       // return elenco; 
+    //}
+
     
     /**
      * @brief Ricalcola classifica basandosi sui risultati.
@@ -69,17 +84,24 @@ public class ElencoSquadre {
      * @post I punteggi di tutte le squadre nell'elenco vengono aggiornati e la lista viene ordinata in base alla classifica.
      */
     public void ricalcolaClassifica(ElencoPartite elencoPartite) {
+        for (Squadra s : elenco) s.setPunteggio(0);
+        for (Partita p : elencoPartite.getElencoBase()) p.applicaPunti();
+        aggiornaElenco();
     }
 
     /**
      * @brief Riordina internamente la lista per punteggio.
      */
     private void aggiornaElenco() {
+        elenco.sort(new Comparatore());
+        elencoOrdinato.setAll(elenco);
     }
     
     /**
      * @brief Restituisce l'elenco base delle squadre.
      * @return ArrayList delle squadre.
      */
-    public ArrayList<Squadra> getElencoBase() { return null; }
+    public ArrayList<Squadra> getElencoBase() { 
+        return elenco;
+    }
 }

@@ -1,6 +1,9 @@
 package TorneoCalcio5.logica;
 
 import java.io.IOException;
+import java.io.*;
+import java.time.LocalDate;
+import java.util.Arrays;
 
 /**
  * @file IOFile.java
@@ -14,6 +17,11 @@ public class IOFile {
      * @param[in] filename Il nome del file.
      */
     public static void salvaSquadre(ElencoSquadre elenco, String filename) throws IOException {
+        try (PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(filename)))) {
+            for (Squadra s : elenco.getElencoBase()) {
+                pw.println(s.getNome() + ";" + s.getPunteggio() + ";" + String.join(",", s.getGiocatori()));
+            }
+        }
     }
 
     /**
@@ -22,7 +30,19 @@ public class IOFile {
      * @return L'elenco caricato.
      */
     public static ElencoSquadre caricaSquadre(String filename) throws Exception {
-        return null;
+        ElencoSquadre elenco = new ElencoSquadre();
+        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+            String linea;
+            while ((linea = br.readLine()) != null) {
+                String[] parti = linea.split(";");
+                Squadra s = new Squadra();
+                s.setNome(parti[0]);
+                s.setPunteggio(Integer.parseInt(parti[1]));
+                if (parti.length > 2) s.setGiocatori(Arrays.asList(parti[2].split(",")));
+                elenco.addSquadra(s);
+            }
+        }
+        return elenco;
     }
 
     /**
@@ -33,6 +53,12 @@ public class IOFile {
      * @post Il file viene sovrascritto con i dati aggiornati.
      */
     public static void salvaPartite(ElencoPartite elenco, String filename) throws IOException {
+        try (PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(filename)))) {
+            for (Partita p : elenco.getElencoBase()) {
+                pw.println(p.getSquadraCasa().getNome() + ";" + p.getGolCasa() + ";" + 
+                           p.getGolOspite() + ";" + p.getSquadraOspite().getNome() + ";" + p.getData());
+            }
+        }
     }
 
     /**
@@ -42,6 +68,22 @@ public class IOFile {
      * @return L'elenco delle partite caricato.
      */
     public static ElencoPartite caricaPartite(String filename, ElencoSquadre squadre) throws Exception {
-        return null;
+        ElencoPartite elenco = new ElencoPartite();
+        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+            String linea;
+            while ((linea = br.readLine()) != null) {
+                String[] parti = linea.split(";");
+                Partita p = new Partita();
+                for (Squadra s : squadre.getElencoBase()) {
+                    if (s.getNome().equals(parti[0])) p.setSquadraCasa(s);
+                    if (s.getNome().equals(parti[3])) p.setSquadraOspite(s);
+                }
+                p.setGolCasa(Integer.parseInt(parti[1]));
+                p.setGolOspite(Integer.parseInt(parti[2]));
+                p.setData(LocalDate.parse(parti[4]));
+                elenco.addPartita(p);
+            }
+        }
+        return elenco;
     }
 }
