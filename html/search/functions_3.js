@@ -8,7 +8,9 @@ var searchData=
   ['getgolcasa_5',['getGolCasa',['../class_torneo_calcio5_1_1logica_1_1_partita.html#aeadb4ad70ac8bb7826f33285eb77db48',1,'TorneoCalcio5::logica::Partita']]],
   ['getgolospite_6',['getGolOspite',['../class_torneo_calcio5_1_1logica_1_1_partita.html#a0e652ce56be643af972aa92a4dfdda0a',1,'TorneoCalcio5::logica::Partita']]],
   ['getnome_7',['getNome',['../class_torneo_calcio5_1_1logica_1_1_squadra.html#a11b013f87d59bf10a22a24c2339aa26f',1,'TorneoCalcio5::logica::Squadra']]],
-  ['getpunteggio_8',['getPunteggio',['../class_torneo_calcio5_1_1logica_1_1_squadra.html#aeb6bc52a93032931b4e801b80b290943',1,'TorneoCalcio5::logica::Squadra']]],
-  ['getsquadracasa_9',['getSquadraCasa',['../class_torneo_calcio5_1_1logica_1_1_partita.html#aefa990d42731a66dac4d4e21871a2e4f',1,'TorneoCalcio5::logica::Partita']]],
-  ['getsquadraospite_10',['getSquadraOspite',['../class_torneo_calcio5_1_1logica_1_1_partita.html#ac1f8780958b72854b0ff3060a871f461',1,'TorneoCalcio5::logica::Partita']]]
+  ['getpartita_8',['getPartita',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_partita_controller.html#a4718757e95a500094da8a1dee3d8961f',1,'TorneoCalcio5::interfacciagrafica::ModificaPartitaController']]],
+  ['getpunteggio_9',['getPunteggio',['../class_torneo_calcio5_1_1logica_1_1_squadra.html#aeb6bc52a93032931b4e801b80b290943',1,'TorneoCalcio5::logica::Squadra']]],
+  ['getsquadra_10',['getSquadra',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#af36b026794518d16122640cb9672d65e',1,'TorneoCalcio5.interfacciagrafica.ModificaSquadraController.getSquadra()'],['../class_torneo_calcio5_1_1interfacciagrafica_1_1_visualizza_squadra_controller.html#aaeffa6bba7404475144007d585531b9e',1,'TorneoCalcio5.interfacciagrafica.VisualizzaSquadraController.getSquadra()']]],
+  ['getsquadracasa_11',['getSquadraCasa',['../class_torneo_calcio5_1_1logica_1_1_partita.html#aefa990d42731a66dac4d4e21871a2e4f',1,'TorneoCalcio5::logica::Partita']]],
+  ['getsquadraospite_12',['getSquadraOspite',['../class_torneo_calcio5_1_1logica_1_1_partita.html#ac1f8780958b72854b0ff3060a871f461',1,'TorneoCalcio5::logica::Partita']]]
 ];

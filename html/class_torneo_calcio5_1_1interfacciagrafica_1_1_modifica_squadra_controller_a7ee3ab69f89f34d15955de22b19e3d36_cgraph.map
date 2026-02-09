@@ -1,0 +1,7 @@
+<map id="TorneoCalcio5.interfacciagrafica.ModificaSquadraController.inizializzaModifica" name="TorneoCalcio5.interfacciagrafica.ModificaSquadraController.inizializzaModifica">
+<area shape="rect" id="Node000001" title="Inizializza la finestra con i dati della squadra e l&#39;elenco per i controlli." alt="" coords="5,27,241,85"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#aa3ddae234262e7659286a415241e18e7" title="Restituisce la lista dei giocatori." alt="" coords="306,5,522,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,41,293,39,288,40,242,47"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#a11b013f87d59bf10a22a24c2339aa26f" title="Restituisce il nome." alt="" coords="289,72,540,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,65,276,71,271,71,241,71"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="TorneoCalcio5.logica.Squadra.getGiocatori" name="TorneoCalcio5.logica.Squadra.getGiocatori">
+<area shape="rect" id="Node000001" title="Restituisce la lista dei giocatori." alt="" coords="883,171,1100,213"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#a7ee3ab69f89f34d15955de22b19e3d36" title="Inizializza la finestra con i dati della squadra e l&#39;elenco per i controlli." alt="" coords="594,5,830,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="952,160,899,119,834,78,811,67,811,62,837,74,902,115,957,161"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_visualizza_squadra_controller.html#a6c90e3873c11383fcbd709e4913cf9c2" title="Inizializza gli elementi grafici con i dati della squadra." alt="" coords="589,88,835,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="891,166,824,150,824,145,897,166"/>
+<area shape="rect" id="Node000006" href="$class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html#a55cfc7f0feb9f62e9eeccc10a1ac08ac" title="Modifica una squadra esistente." alt="" coords="619,171,805,213"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="865,192,806,195,806,189,870,192"/>
+<area shape="rect" id="Node000007" href="$class_torneo_calcio5_1_1logica_1_1_squadra_test.html#a928fb5a5c8e9315af0d51c43dafb8ad0" title=" " alt="" coords="610,237,814,280"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="887,217,805,239,804,234,882,218"/>
+<area shape="rect" id="Node000008" href="$class_torneo_calcio5_1_1logica_1_1_squadra_test.html#a1a1a2ba61e017dd48fff4a000a999d8c" title=" " alt="" coords="615,304,809,347"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="952,222,898,261,836,294,806,306,805,301,834,290,895,256,947,224"/>
+<area shape="rect" id="Node000004" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#abd3302d160e616ddc8c464b8d9b485d6" title="Apre la finestra di dettaglio di una squadra." alt="" coords="330,96,541,139"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="571,118,542,120,541,115,576,117"/>
+<area shape="rect" id="Node000005" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#ade60b2133de8dffa8236ebb9f36a6996" title="Gestisce l&#39;evento di selezione di una riga nella tabella. Recupera l&#39;oggetto selezionato e apre la fi..." alt="" coords="5,96,282,139"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="311,118,283,120,281,115,316,116"/>
+</map>

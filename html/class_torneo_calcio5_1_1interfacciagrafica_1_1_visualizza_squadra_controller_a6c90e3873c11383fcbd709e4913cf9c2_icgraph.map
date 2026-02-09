@@ -1,0 +1,7 @@
+<map id="TorneoCalcio5.interfacciagrafica.VisualizzaSquadraController.inizializzaVisualizza" name="TorneoCalcio5.interfacciagrafica.VisualizzaSquadraController.inizializzaVisualizza">
+<area shape="rect" id="Node000001" title="Inizializza gli elementi grafici con i dati della squadra." alt="" coords="589,5,835,64"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#abd3302d160e616ddc8c464b8d9b485d6" title="Apre la finestra di dettaglio di una squadra." alt="" coords="330,13,541,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="571,35,542,37,541,32,576,35"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#ade60b2133de8dffa8236ebb9f36a6996" title="Gestisce l&#39;evento di selezione di una riga nella tabella. Recupera l&#39;oggetto selezionato e apre la fi..." alt="" coords="5,13,282,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="311,35,282,37,282,32,317,35"/>
+</map>

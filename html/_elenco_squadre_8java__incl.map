@@ -1,9 +1,11 @@
 <map id="src/main/java/TorneoCalcio5/logica/ElencoSquadre.java" name="src/main/java/TorneoCalcio5/logica/ElencoSquadre.java">
-<area shape="rect" id="Node000001" title="Gestisce la lista delle squadre e il loro ordinamento." alt="" coords="128,5,314,48"/>
+<area shape="rect" id="Node000001" title="Gestisce la lista delle squadre e il loro ordinamento." alt="" coords="227,5,413,48"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,96,128,123"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,48,105,91,103,86,179,49"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,51,122,93,120,88,254,46"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="152,96,290,123"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,47,223,82,219,79,219,51"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="314,96,528,123"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="273,46,378,89,373,90,272,51"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="297,48,250,88,247,84,292,49"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="314,96,523,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="346,46,394,86,389,86,344,51"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="546,96,760,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="406,46,588,91,583,92,405,51"/>
 </map>

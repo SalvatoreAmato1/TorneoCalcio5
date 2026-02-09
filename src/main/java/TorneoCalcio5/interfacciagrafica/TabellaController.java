@@ -46,6 +46,11 @@ public class TabellaController {
         tabella.refresh();
     }
 
+    /**
+     * @brief Gestisce l'evento di selezione di una riga nella tabella.
+     * Recupera l'oggetto selezionato e apre la finestra di dettaglio.
+     * @throws IOException Se il caricamento del file FXML dei dettagli fallisce.
+     */
     @FXML
     protected void handleSquadraSelezionata() throws IOException {
         Squadra selezionata = tabella.getSelectionModel().getSelectedItem();
@@ -73,6 +78,11 @@ public class TabellaController {
         }
     }
 
+    /**
+     * @brief Metodo helper per la creazione e visualizzazione di una finestra modale.
+     * @param[in] titolo Il titolo da assegnare alla finestra.
+     * @param[in] root Il nodo radice della scena caricata dal file FXML.
+     */
     protected void mostraFinestra(String titolo, Parent root) {
         Stage stage = new Stage();
         stage.setTitle(titolo);

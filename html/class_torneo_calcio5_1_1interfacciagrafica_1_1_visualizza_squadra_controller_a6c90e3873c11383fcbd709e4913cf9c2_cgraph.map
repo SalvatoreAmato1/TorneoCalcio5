@@ -1,0 +1,9 @@
+<map id="TorneoCalcio5.interfacciagrafica.VisualizzaSquadraController.inizializzaVisualizza" name="TorneoCalcio5.interfacciagrafica.VisualizzaSquadraController.inizializzaVisualizza">
+<area shape="rect" id="Node000001" title="Inizializza gli elementi grafici con i dati della squadra." alt="" coords="5,56,252,115"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#aa3ddae234262e7659286a415241e18e7" title="Restituisce la lista dei giocatori." alt="" coords="317,5,534,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,58,304,50,299,52,253,64"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#a11b013f87d59bf10a22a24c2339aa26f" title="Restituisce il nome." alt="" coords="300,72,551,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="252,83,287,85,282,86,252,88"/>
+<area shape="rect" id="Node000004" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#aeb6bc52a93032931b4e801b80b290943" title="Restituisce il punteggio." alt="" coords="317,123,534,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="252,107,304,119,299,120,252,112"/>
+</map>

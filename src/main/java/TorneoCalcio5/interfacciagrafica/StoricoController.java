@@ -50,6 +50,10 @@ public class StoricoController {
         tabellaStorico.setItems(elencoPartite.getElencoOsservabile());
     }
 
+    /**
+     * @brief Apre la finestra di modifica per la partita selezionata.
+     * @param[in] event L'evento di pressione del pulsante.
+     */
     @FXML
     private void handleModificaPartita(ActionEvent event) {
         Partita selezionata = tabellaStorico.getSelectionModel().getSelectedItem();
@@ -83,6 +87,10 @@ public class StoricoController {
         }
     }
 
+    /**
+     * @brief Rimuove la partita selezionata dallo storico e aggiorna la classifica.
+     * @param[in] event L'evento di pressione del pulsante.
+     */
     @FXML
     private void handleEliminaPartita(ActionEvent event) {
         Partita selezionata = tabellaStorico.getSelectionModel().getSelectedItem();
@@ -101,6 +109,10 @@ public class StoricoController {
         tabellaStorico.refresh();
     }
 
+    /**
+     * @brief Chiude la finestra dello storico.
+     * @param[in] event L'evento di pressione del pulsante.
+     */
     @FXML
     private void handleEsci(ActionEvent event) {
         Stage stage = (Stage) tabellaStorico.getScene().getWindow();

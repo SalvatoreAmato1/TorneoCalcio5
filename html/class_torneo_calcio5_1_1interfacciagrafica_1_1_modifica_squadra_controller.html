@@ -116,45 +116,254 @@ Collaboration diagram for TorneoCalcio5.interfacciagrafica.ModificaSquadraContro
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a36888be834ce37279aad92863b59e00f" id="r_a36888be834ce37279aad92863b59e00f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a36888be834ce37279aad92863b59e00f">initialize</a> ()</td></tr>
+<tr class="memdesc:a36888be834ce37279aad92863b59e00f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inizializza il controller e imposta i listener per la validazione in tempo reale. Viene chiamato automaticamente dopo il caricamento del file FXML.  <br /></td></tr>
 <tr class="memitem:a7ee3ab69f89f34d15955de22b19e3d36" id="r_a7ee3ab69f89f34d15955de22b19e3d36"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7ee3ab69f89f34d15955de22b19e3d36">inizializzaModifica</a> (<a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a> s, <a class="el" href="class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html">ElencoSquadre</a> <a class="el" href="#aa5dd4e14183986fa4d9df8812ed2f864">elenco</a>)</td></tr>
 <tr class="memdesc:a7ee3ab69f89f34d15955de22b19e3d36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inizializza la finestra con i dati della squadra e l'elenco per i controlli.  <br /></td></tr>
-<tr class="memitem:af36b026794518d16122640cb9672d65e" id="r_af36b026794518d16122640cb9672d65e"><td class="memItemLeft"><a id="af36b026794518d16122640cb9672d65e" name="af36b026794518d16122640cb9672d65e"></a>
-<a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a>&#160;</td><td class="memItemRight"><b>getSquadra</b> ()</td></tr>
-<tr class="memitem:a0144301b5565c5eb549a6938b2768024" id="r_a0144301b5565c5eb549a6938b2768024"><td class="memItemLeft"><a id="a0144301b5565c5eb549a6938b2768024" name="a0144301b5565c5eb549a6938b2768024"></a>
-boolean&#160;</td><td class="memItemRight"><b>isModificato</b> ()</td></tr>
+<tr class="memitem:af36b026794518d16122640cb9672d65e" id="r_af36b026794518d16122640cb9672d65e"><td class="memItemLeft"><a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a>&#160;</td><td class="memItemRight"><a class="el" href="#af36b026794518d16122640cb9672d65e">getSquadra</a> ()</td></tr>
+<tr class="memitem:a0144301b5565c5eb549a6938b2768024" id="r_a0144301b5565c5eb549a6938b2768024"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a0144301b5565c5eb549a6938b2768024">isModificato</a> ()</td></tr>
+<tr class="memdesc:a0144301b5565c5eb549a6938b2768024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restituisce lo stato della modifica.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ae8c612aae742313dd0ce0acee7186aba" id="r_ae8c612aae742313dd0ce0acee7186aba"><td class="memItemLeft"><a id="ae8c612aae742313dd0ce0acee7186aba" name="ae8c612aae742313dd0ce0acee7186aba"></a>
-void&#160;</td><td class="memItemRight"><b>handleAggiungiGiocatore</b> (ActionEvent e)</td></tr>
-<tr class="memitem:a571d936c45259724335af613f7c65ffb" id="r_a571d936c45259724335af613f7c65ffb"><td class="memItemLeft"><a id="a571d936c45259724335af613f7c65ffb" name="a571d936c45259724335af613f7c65ffb"></a>
-void&#160;</td><td class="memItemRight"><b>handleConferma</b> (ActionEvent event)</td></tr>
-<tr class="memitem:a3d9040396cca92c2703b5652b76e92de" id="r_a3d9040396cca92c2703b5652b76e92de"><td class="memItemLeft"><a id="a3d9040396cca92c2703b5652b76e92de" name="a3d9040396cca92c2703b5652b76e92de"></a>
-void&#160;</td><td class="memItemRight"><b>handleEsci</b> (ActionEvent event)</td></tr>
-<tr class="memitem:a597e2f2064f7dd5db012e8589f969660" id="r_a597e2f2064f7dd5db012e8589f969660"><td class="memItemLeft"><a id="a597e2f2064f7dd5db012e8589f969660" name="a597e2f2064f7dd5db012e8589f969660"></a>
-boolean&#160;</td><td class="memItemRight"><b>aggiornaSquadra</b> ()</td></tr>
-<tr class="memitem:ac89d6aa231b529504fa5b2424a9d79de" id="r_ac89d6aa231b529504fa5b2424a9d79de"><td class="memItemLeft"><a id="ac89d6aa231b529504fa5b2424a9d79de" name="ac89d6aa231b529504fa5b2424a9d79de"></a>
-void&#160;</td><td class="memItemRight"><b>chiudiFinestra</b> ()</td></tr>
+<tr class="memitem:ae8c612aae742313dd0ce0acee7186aba" id="r_ae8c612aae742313dd0ce0acee7186aba"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae8c612aae742313dd0ce0acee7186aba">handleAggiungiGiocatore</a> (ActionEvent e)</td></tr>
+<tr class="memitem:a571d936c45259724335af613f7c65ffb" id="r_a571d936c45259724335af613f7c65ffb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a571d936c45259724335af613f7c65ffb">handleConferma</a> (ActionEvent event)</td></tr>
+<tr class="memitem:a3d9040396cca92c2703b5652b76e92de" id="r_a3d9040396cca92c2703b5652b76e92de"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3d9040396cca92c2703b5652b76e92de">handleEsci</a> (ActionEvent event)</td></tr>
+<tr class="memitem:a597e2f2064f7dd5db012e8589f969660" id="r_a597e2f2064f7dd5db012e8589f969660"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a597e2f2064f7dd5db012e8589f969660">aggiornaSquadra</a> ()</td></tr>
+<tr class="memitem:ac89d6aa231b529504fa5b2424a9d79de" id="r_ac89d6aa231b529504fa5b2424a9d79de"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac89d6aa231b529504fa5b2424a9d79de">chiudiFinestra</a> ()</td></tr>
+<tr class="memdesc:ac89d6aa231b529504fa5b2424a9d79de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gestisce la chiusura della finestra corrente recuperando lo Stage.  <br /></td></tr>
 <tr class="memitem:ab6ec8275e18a5c4f7a78461073a20d1f" id="r_ab6ec8275e18a5c4f7a78461073a20d1f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab6ec8275e18a5c4f7a78461073a20d1f">mostraErrore</a> (String titolo, String msg)</td></tr>
 <tr class="memdesc:ab6ec8275e18a5c4f7a78461073a20d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metodo helper per mostrare messaggi di errore a video.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ae08cea7a7fd005facf6c7a383cc2eb4e" id="r_ae08cea7a7fd005facf6c7a383cc2eb4e"><td class="memItemLeft"><a id="ae08cea7a7fd005facf6c7a383cc2eb4e" name="ae08cea7a7fd005facf6c7a383cc2eb4e"></a>
-TextField&#160;</td><td class="memItemRight"><b>nomeField</b></td></tr>
-<tr class="memitem:a759e6f4117c3181a16cfdb02b11a797b" id="r_a759e6f4117c3181a16cfdb02b11a797b"><td class="memItemLeft"><a id="a759e6f4117c3181a16cfdb02b11a797b" name="a759e6f4117c3181a16cfdb02b11a797b"></a>
-ListView&lt; String &gt;&#160;</td><td class="memItemRight"><b>listaGiocatoriView</b></td></tr>
-<tr class="memitem:a8744a5508e2514f98c3d58c17f0fdc69" id="r_a8744a5508e2514f98c3d58c17f0fdc69"><td class="memItemLeft"><a id="a8744a5508e2514f98c3d58c17f0fdc69" name="a8744a5508e2514f98c3d58c17f0fdc69"></a>
-TextField&#160;</td><td class="memItemRight"><b>nuovoGiocatoreField</b></td></tr>
-<tr class="memitem:a68b9b034855540a1fde3681acb0d4897" id="r_a68b9b034855540a1fde3681acb0d4897"><td class="memItemLeft"><a id="a68b9b034855540a1fde3681acb0d4897" name="a68b9b034855540a1fde3681acb0d4897"></a>
-<a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a>&#160;</td><td class="memItemRight"><b>squadra</b></td></tr>
-<tr class="memitem:aa5dd4e14183986fa4d9df8812ed2f864" id="r_aa5dd4e14183986fa4d9df8812ed2f864"><td class="memItemLeft"><a id="aa5dd4e14183986fa4d9df8812ed2f864" name="aa5dd4e14183986fa4d9df8812ed2f864"></a>
-<a class="el" href="class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html">ElencoSquadre</a>&#160;</td><td class="memItemRight"><b>elenco</b></td></tr>
-<tr class="memdesc:aa5dd4e14183986fa4d9df8812ed2f864"><td class="mdescLeft">&#160;</td><td class="mdescRight">Riferimento all'elenco squadre per il controllo duplicati. <br /></td></tr>
-<tr class="memitem:a45761741f8d125c43ef9285c40188606" id="r_a45761741f8d125c43ef9285c40188606"><td class="memItemLeft"><a id="a45761741f8d125c43ef9285c40188606" name="a45761741f8d125c43ef9285c40188606"></a>
-boolean&#160;</td><td class="memItemRight"><b>modificato</b> = false</td></tr>
+<tr class="memitem:a68b9b034855540a1fde3681acb0d4897" id="r_a68b9b034855540a1fde3681acb0d4897"><td class="memItemLeft"><a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a>&#160;</td><td class="memItemRight"><a class="el" href="#a68b9b034855540a1fde3681acb0d4897">squadra</a></td></tr>
+<tr class="memitem:aa5dd4e14183986fa4d9df8812ed2f864" id="r_aa5dd4e14183986fa4d9df8812ed2f864"><td class="memItemLeft"><a class="el" href="class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html">ElencoSquadre</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa5dd4e14183986fa4d9df8812ed2f864">elenco</a></td></tr>
+<tr class="memdesc:aa5dd4e14183986fa4d9df8812ed2f864"><td class="mdescLeft">&#160;</td><td class="mdescRight">Riferimento all'elenco squadre per il controllo duplicati.  <br /></td></tr>
+<tr class="memitem:a45761741f8d125c43ef9285c40188606" id="r_a45761741f8d125c43ef9285c40188606"><td class="memItemLeft">boolean&#160;</td><td class="memItemRight"><a class="el" href="#a45761741f8d125c43ef9285c40188606">modificato</a> = false</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a597e2f2064f7dd5db012e8589f969660" name="a597e2f2064f7dd5db012e8589f969660"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a597e2f2064f7dd5db012e8589f969660">&#9670;&#160;</a></span>aggiornaSquadra()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean TorneoCalcio5.interfacciagrafica.ModificaSquadraController.aggiornaSquadra </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a597e2f2064f7dd5db012e8589f969660_cgraph.png" border="0" usemap="#aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a597e2f2064f7dd5db012e8589f969660_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a597e2f2064f7dd5db012e8589f969660_cgraph" id="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a597e2f2064f7dd5db012e8589f969660_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,281,48"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#ab6ec8275e18a5c4f7a78461073a20d1f" title="Metodo helper per mostrare messaggi di errore a video." alt="" coords="329,5,582,48"/>
+<area shape="poly" title=" " alt="" coords="281,24,316,27,311,27,281,29"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a597e2f2064f7dd5db012e8589f969660_icgraph.png" border="0" usemap="#aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a597e2f2064f7dd5db012e8589f969660_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a597e2f2064f7dd5db012e8589f969660_icgraph" id="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a597e2f2064f7dd5db012e8589f969660_icgraph">
+<area shape="rect" title=" " alt="" coords="327,5,602,48"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#a571d936c45259724335af613f7c65ffb" title=" " alt="" coords="5,5,279,48"/>
+<area shape="poly" title=" " alt="" coords="308,27,279,29,279,24,314,27"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac89d6aa231b529504fa5b2424a9d79de" name="ac89d6aa231b529504fa5b2424a9d79de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac89d6aa231b529504fa5b2424a9d79de">&#9670;&#160;</a></span>chiudiFinestra()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TorneoCalcio5.interfacciagrafica.ModificaSquadraController.chiudiFinestra </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gestisce la chiusura della finestra corrente recuperando lo Stage. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_ac89d6aa231b529504fa5b2424a9d79de_icgraph.png" border="0" usemap="#aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_ac89d6aa231b529504fa5b2424a9d79de_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_ac89d6aa231b529504fa5b2424a9d79de_icgraph" id="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_ac89d6aa231b529504fa5b2424a9d79de_icgraph">
+<area shape="rect" title="Gestisce la chiusura della finestra corrente recuperando lo Stage." alt="" coords="327,39,586,81"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#a571d936c45259724335af613f7c65ffb" title=" " alt="" coords="5,5,279,48"/>
+<area shape="poly" title=" " alt="" coords="309,45,279,44,279,39,314,44"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#a3d9040396cca92c2703b5652b76e92de" title=" " alt="" coords="21,72,263,115"/>
+<area shape="poly" title=" " alt="" coords="309,76,264,83,263,78,314,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af36b026794518d16122640cb9672d65e" name="af36b026794518d16122640cb9672d65e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af36b026794518d16122640cb9672d65e">&#9670;&#160;</a></span>getSquadra()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a> TorneoCalcio5.interfacciagrafica.ModificaSquadraController.getSquadra </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8c612aae742313dd0ce0acee7186aba" name="ae8c612aae742313dd0ce0acee7186aba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8c612aae742313dd0ce0acee7186aba">&#9670;&#160;</a></span>handleAggiungiGiocatore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TorneoCalcio5.interfacciagrafica.ModificaSquadraController.handleAggiungiGiocatore </td>
+          <td>(</td>
+          <td class="paramtype">ActionEvent</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a571d936c45259724335af613f7c65ffb" name="a571d936c45259724335af613f7c65ffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a571d936c45259724335af613f7c65ffb">&#9670;&#160;</a></span>handleConferma()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TorneoCalcio5.interfacciagrafica.ModificaSquadraController.handleConferma </td>
+          <td>(</td>
+          <td class="paramtype">ActionEvent</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_inserimento_squadra_controller.html#a21c6d96e42d3dc98c20ee96b08d17155">TorneoCalcio5.interfacciagrafica.InserimentoSquadraController</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a571d936c45259724335af613f7c65ffb_cgraph.png" border="0" usemap="#aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a571d936c45259724335af613f7c65ffb_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a571d936c45259724335af613f7c65ffb_cgraph" id="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a571d936c45259724335af613f7c65ffb_cgraph">
+<area shape="rect" title=" " alt="" coords="5,39,279,81"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#a597e2f2064f7dd5db012e8589f969660" title=" " alt="" coords="327,5,602,48"/>
+<area shape="poly" title=" " alt="" coords="278,43,314,42,308,43,279,48"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#ac89d6aa231b529504fa5b2424a9d79de" title="Gestisce la chiusura della finestra corrente recuperando lo Stage." alt="" coords="335,72,594,115"/>
+<area shape="poly" title=" " alt="" coords="279,71,322,78,317,78,279,77"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#ab6ec8275e18a5c4f7a78461073a20d1f" title="Metodo helper per mostrare messaggi di errore a video." alt="" coords="650,5,903,48"/>
+<area shape="poly" title=" " alt="" coords="602,24,637,26,632,27,603,29"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3d9040396cca92c2703b5652b76e92de" name="a3d9040396cca92c2703b5652b76e92de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d9040396cca92c2703b5652b76e92de">&#9670;&#160;</a></span>handleEsci()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TorneoCalcio5.interfacciagrafica.ModificaSquadraController.handleEsci </td>
+          <td>(</td>
+          <td class="paramtype">ActionEvent</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a3d9040396cca92c2703b5652b76e92de_cgraph.png" border="0" usemap="#aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a3d9040396cca92c2703b5652b76e92de_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a3d9040396cca92c2703b5652b76e92de_cgraph" id="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a3d9040396cca92c2703b5652b76e92de_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,248,48"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#ac89d6aa231b529504fa5b2424a9d79de" title="Gestisce la chiusura della finestra corrente recuperando lo Stage." alt="" coords="296,5,555,48"/>
+<area shape="poly" title=" " alt="" coords="248,24,283,27,278,27,248,29"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a36888be834ce37279aad92863b59e00f" name="a36888be834ce37279aad92863b59e00f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36888be834ce37279aad92863b59e00f">&#9670;&#160;</a></span>initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TorneoCalcio5.interfacciagrafica.ModificaSquadraController.initialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inizializza il controller e imposta i listener per la validazione in tempo reale. Viene chiamato automaticamente dopo il caricamento del file FXML. </p>
+
+</div>
+</div>
 <a id="a7ee3ab69f89f34d15955de22b19e3d36" name="a7ee3ab69f89f34d15955de22b19e3d36"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ee3ab69f89f34d15955de22b19e3d36">&#9670;&#160;</a></span>inizializzaModifica()</h2>
 
@@ -182,6 +391,38 @@ boolean&#160;</td><td class="memItemRight"><b>modificato</b> = false</td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a7ee3ab69f89f34d15955de22b19e3d36_cgraph.png" border="0" usemap="#aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a7ee3ab69f89f34d15955de22b19e3d36_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a7ee3ab69f89f34d15955de22b19e3d36_cgraph" id="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_a7ee3ab69f89f34d15955de22b19e3d36_cgraph">
+<area shape="rect" title="Inizializza la finestra con i dati della squadra e l&#39;elenco per i controlli." alt="" coords="5,27,241,85"/>
+<area shape="rect" href="class_torneo_calcio5_1_1logica_1_1_squadra.html#aa3ddae234262e7659286a415241e18e7" title="Restituisce la lista dei giocatori." alt="" coords="306,5,522,48"/>
+<area shape="poly" title=" " alt="" coords="241,41,293,39,288,40,242,47"/>
+<area shape="rect" href="class_torneo_calcio5_1_1logica_1_1_squadra.html#a11b013f87d59bf10a22a24c2339aa26f" title="Restituisce il nome." alt="" coords="289,72,540,99"/>
+<area shape="poly" title=" " alt="" coords="241,65,276,71,271,71,241,71"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0144301b5565c5eb549a6938b2768024" name="a0144301b5565c5eb549a6938b2768024"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0144301b5565c5eb549a6938b2768024">&#9670;&#160;</a></span>isModificato()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean TorneoCalcio5.interfacciagrafica.ModificaSquadraController.isModificato </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Restituisce lo stato della modifica. </p>
+<dl class="section return"><dt>Returns</dt><dd>true se l'utente ha confermato le modifiche, false altrimenti. </dd></dl>
 
 </div>
 </div>
@@ -220,6 +461,87 @@ boolean&#160;</td><td class="memItemRight"><b>modificato</b> = false</td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_ab6ec8275e18a5c4f7a78461073a20d1f_icgraph.png" border="0" usemap="#aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_ab6ec8275e18a5c4f7a78461073a20d1f_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_ab6ec8275e18a5c4f7a78461073a20d1f_icgraph" id="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller_ab6ec8275e18a5c4f7a78461073a20d1f_icgraph">
+<area shape="rect" title="Metodo helper per mostrare messaggi di errore a video." alt="" coords="650,5,903,48"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#a597e2f2064f7dd5db012e8589f969660" title=" " alt="" coords="327,5,602,48"/>
+<area shape="poly" title=" " alt="" coords="631,27,603,29,603,24,637,27"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#a571d936c45259724335af613f7c65ffb" title=" " alt="" coords="5,5,279,48"/>
+<area shape="poly" title=" " alt="" coords="308,27,279,29,279,24,314,27"/>
+</map>
+</div>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="aa5dd4e14183986fa4d9df8812ed2f864" name="aa5dd4e14183986fa4d9df8812ed2f864"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5dd4e14183986fa4d9df8812ed2f864">&#9670;&#160;</a></span>elenco</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html">ElencoSquadre</a> TorneoCalcio5.interfacciagrafica.ModificaSquadraController.elenco</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Riferimento all'elenco squadre per il controllo duplicati. </p>
+
+</div>
+</div>
+<a id="a45761741f8d125c43ef9285c40188606" name="a45761741f8d125c43ef9285c40188606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45761741f8d125c43ef9285c40188606">&#9670;&#160;</a></span>modificato</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean TorneoCalcio5.interfacciagrafica.ModificaSquadraController.modificato = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68b9b034855540a1fde3681acb0d4897" name="a68b9b034855540a1fde3681acb0d4897"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68b9b034855540a1fde3681acb0d4897">&#9670;&#160;</a></span>squadra</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a> TorneoCalcio5.interfacciagrafica.ModificaSquadraController.squadra</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -239,7 +561,7 @@ boolean&#160;</td><td class="memItemRight"><b>modificato</b> = false</td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>TorneoCalcio5</b></li><li class="navelem"><b>interfacciagrafica</b></li><li class="navelem"><a href="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html">ModificaSquadraController</a></li>
+    <li class="navelem"><b>TorneoCalcio5</b></li><li class="navelem"><a href="namespace_torneo_calcio5_1_1interfacciagrafica.html">interfacciagrafica</a></li><li class="navelem"><a href="class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html">ModificaSquadraController</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

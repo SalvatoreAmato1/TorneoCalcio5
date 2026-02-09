@@ -1,0 +1,5 @@
+<map id="TorneoCalcio5.interfacciagrafica.TabellaController.mostraDettagli" name="TorneoCalcio5.interfacciagrafica.TabellaController.mostraDettagli">
+<area shape="rect" id="Node000001" title="Apre la finestra di dettaglio di una squadra." alt="" coords="330,5,541,48"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#ade60b2133de8dffa8236ebb9f36a6996" title="Gestisce l&#39;evento di selezione di una riga nella tabella. Recupera l&#39;oggetto selezionato e apre la fi..." alt="" coords="5,5,282,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="311,27,282,29,282,24,317,27"/>
+</map>

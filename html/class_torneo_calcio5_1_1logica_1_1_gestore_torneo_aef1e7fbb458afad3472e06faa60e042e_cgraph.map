@@ -1,0 +1,7 @@
+<map id="TorneoCalcio5.logica.GestoreTorneo.start" name="TorneoCalcio5.logica.GestoreTorneo.start">
+<area shape="rect" id="Node000001" title="Avvia l&#39;applicazione JavaFX." alt="" coords="5,5,198,48"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_home_controller.html#a6a6d2e6e1f143f9d245e9a355a21f03a" title="Inizializza l&#39;applicazione e le strutture dati." alt="" coords="246,5,457,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,24,233,26,228,27,198,29"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#a0a7476368bf7a234b43c9b7fd41394f9" title="Inizializza la tabella collegandola all&#39;elenco." alt="" coords="505,5,725,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="457,24,492,27,487,27,457,29"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="TorneoCalcio5.logica.ElencoSquadreTest.testCercaSquadraCaseInsensitive" name="TorneoCalcio5.logica.ElencoSquadreTest.testCercaSquadraCaseInsensitive">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,64,240,123"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html#ae715e8c4c466f13bb9d5aa634f02140b" title="Aggiunge una squadra all&#39;elenco." alt="" coords="320,5,506,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,64,308,50,303,52,241,69"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html#a2d8ba5629847ea3c79d6756987cbd987" title="Cerca una squadra nell&#39;elenco in base al nome." alt="" coords="320,72,506,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="240,91,307,93,302,94,240,96"/>
+<area shape="rect" id="Node000004" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#a938efb6260c14b6141b55dbbe77636a4" title="Viene inizializzato il nome della squadra." alt="" coords="288,139,539,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="240,114,331,135,326,135,240,120"/>
+</map>

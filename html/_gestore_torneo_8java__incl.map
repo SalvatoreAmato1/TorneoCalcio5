@@ -1,7 +1,15 @@
 <map id="src/main/java/TorneoCalcio5/logica/GestoreTorneo.java" name="src/main/java/TorneoCalcio5/logica/GestoreTorneo.java">
-<area shape="rect" id="Node000001" title="Classe principale per l&#39;avvio dell&#39;applicazione." alt="" coords="99,5,286,48"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,196,123"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,48,128,88,125,83,166,50"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="219,96,350,123"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,46,261,86,256,85,215,51"/>
+<area shape="rect" id="Node000001" title="Classe principale per l&#39;avvio dell&#39;applicazione." alt="" coords="531,5,718,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,217,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="531,47,233,98,232,93,530,41"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="241,104,432,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="559,48,393,102,391,96,554,49"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="456,104,619,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="607,47,562,95,559,91,602,49"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="644,104,781,131"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="646,46,692,94,687,92,644,51"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="806,104,942,131"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="683,46,826,99,821,98,682,51"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="966,104,1096,131"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="718,43,954,93,972,100,966,99,953,99,718,49"/>
 </map>

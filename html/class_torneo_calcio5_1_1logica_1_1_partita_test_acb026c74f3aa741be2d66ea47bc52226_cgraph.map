@@ -1,0 +1,5 @@
+<map id="TorneoCalcio5.logica.PartitaTest.testCasoLimiteSquadreNulle" name="TorneoCalcio5.logica.PartitaTest.testCasoLimiteSquadreNulle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,222,48"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#a0e569ffbbd14f4062de6e2923200dc96" title="Calcola i punti e aggiorna le squadre. Assegna 3 punti per la vittoria, 1 per il pareggio." alt="" coords="270,5,499,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,24,257,27,252,27,222,29"/>
+</map>
