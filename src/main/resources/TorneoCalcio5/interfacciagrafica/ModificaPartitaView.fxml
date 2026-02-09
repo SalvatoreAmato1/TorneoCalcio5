@@ -44,8 +44,7 @@
 
             <HBox alignment="CENTER" spacing="10.0">
                <children>
-                  <Label text="Data Partita:" style="-fx-font-weight: bold;" />
-                  <Label fx:id="lblData" text="10/02/2026" />
+                  <DatePicker fx:id="dpData" prefWidth="150.0" promptText="Scegli data..."/>
                </children>
             </HBox>
          </children>
