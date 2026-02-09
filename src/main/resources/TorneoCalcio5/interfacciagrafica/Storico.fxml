@@ -42,6 +42,7 @@
                      <children>
                         <Button mnemonicParsing="false" onAction="#handleModifica" prefHeight="40.0" prefWidth="150.0" style="-fx-background-radius: 5;" text="MODIFICA PARTITA" />
                         <Button mnemonicParsing="false" onAction="#tornaAlMenu" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-background-radius: 5;" text="TORNA AL MENÙ" />
+                        <Button mnemonicParsing="false" onAction="#Elimina" prefHeight="40.0" prefWidth="150.00" style="-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-backgrouund-radius: 5:" text="ELIMINA" />
                      </children>
                   </HBox>
                </children>
