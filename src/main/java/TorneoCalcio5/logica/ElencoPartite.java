@@ -1,7 +1,9 @@
 package TorneoCalcio5.logica;
 
 import java.util.ArrayList;
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import java.util.Comparator;
 
 /**
  * @file ElencoPartite.java
@@ -17,6 +19,16 @@ public class ElencoPartite {
      * @post L'elenco viene inizializzato come vuoto.
      */
     public ElencoPartite() {
+        elenco = new ArrayList<>();
+        elencoOsservabile = FXCollections.observableArrayList();
+    }
+    
+    /**
+     * @brief Ordina le partite per data in ordine decrescente (più recenti prima).
+    */
+    public void ordinaPerData() {
+        elenco.sort(Comparator.comparing(Partita::getData).reversed());
+        elencoOsservabile.setAll(elenco);
     }
 
     /**
@@ -24,6 +36,8 @@ public class ElencoPartite {
      * @param[in] p La partita da aggiungere.
      */
     public void addPartita(Partita p) {
+        elenco.add(p);
+        ordinaPerData();
     }
     
     /**
@@ -32,7 +46,9 @@ public class ElencoPartite {
      * @return true se l'operazione ha successo.
      */
     public boolean removePartita(Partita p) {
-        return false;
+        boolean res = elenco.remove(p);
+        elencoOsservabile.setAll(elenco);
+        return res;
     }
 
     /**
@@ -42,6 +58,10 @@ public class ElencoPartite {
      * @param[in] nuova La partita con i nuovi dati.
      */
     public void modificaPartita(Partita vecchia, Partita nuova) {
+        vecchia.setGolCasa(nuova.getGolCasa());
+        vecchia.setGolOspite(nuova.getGolOspite());
+        vecchia.setData(nuova.getData());
+        elencoOsservabile.setAll(elenco);
     }
 
     /**
@@ -49,7 +69,7 @@ public class ElencoPartite {
      * @return ObservableList delle partite.
      */
     public ObservableList<Partita> getElencoOsservabile() {
-        return null;
+        return elencoOsservabile;
     }
     
     /**
@@ -57,6 +77,6 @@ public class ElencoPartite {
      * @return ArrayList delle partite.
      */
     public ArrayList<Partita> getElencoBase() {
-        return null;
+        return elenco;
     }
 }

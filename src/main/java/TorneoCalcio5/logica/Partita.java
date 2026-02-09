@@ -19,6 +19,7 @@ public class Partita {
      * @post I campi vengono inizializzati come null o zero.
      */
     public Partita() {
+        this.data = LocalDate.now();
     }
 
     /**
@@ -26,6 +27,7 @@ public class Partita {
      * @param[in] casa La squadra di casa.
      */
     public void setSquadraCasa(Squadra casa) {
+        this.casa = casa;
     }
 
     /**
@@ -33,7 +35,7 @@ public class Partita {
      * @return La squadra di casa.
      */
     public Squadra getSquadraCasa() {
-        return null;
+        return casa;
     }
 
     /**
@@ -41,6 +43,7 @@ public class Partita {
      * @param[in] ospite La squadra ospite.
      */
     public void setSquadraOspite(Squadra ospite) {
+        this.ospite = ospite;
     }
 
     /**
@@ -48,7 +51,7 @@ public class Partita {
      * @return La squadra ospite.
      */
     public Squadra getSquadraOspite() {
-        return null;
+        return ospite;
     }
 
     /**
@@ -56,7 +59,7 @@ public class Partita {
      * @param[in] gol Il numero di gol.
      */
     public void setGolCasa(int gol) {
-
+        this.golCasa = gol;
     }
 
     /**
@@ -64,7 +67,7 @@ public class Partita {
      * @return Il numero di gol.
      */
     public int getGolCasa() {
-        return 0;
+        return golCasa;
     }
 
     /**
@@ -72,7 +75,7 @@ public class Partita {
      * @param[in] gol Il numero di gol.
      */
     public void setGolOspite(int gol) {
-
+        this.golOspite = gol;
     }
 
     /**
@@ -80,7 +83,7 @@ public class Partita {
      * @return Il numero di gol.
      */
     public int getGolOspite() {
-        return 0;
+        return golOspite;
     }
 
     /**
@@ -88,7 +91,7 @@ public class Partita {
      * @param[in] data La data.
      */
     public void setData(LocalDate data) {
-
+        this.data = data;
     }
 
     /**
@@ -96,7 +99,7 @@ public class Partita {
      * @return La data.
      */
     public LocalDate getData() {
-        return null;
+        return data;
     }
 
     /**
@@ -106,6 +109,14 @@ public class Partita {
      * @post Il punteggio degli oggetti Squadra viene incrementato in base all'esito del match.
      */
     public void applicaPunti() {
-
+        if (casa == null || ospite == null) return;
+        if (golCasa > golOspite) {
+            casa.aggiungiPunti(3);
+        } else if (golOspite > golCasa) {
+            ospite.aggiungiPunti(3);
+        } else {
+            casa.aggiungiPunti(1);
+            ospite.aggiungiPunti(1);
+        }
     }
 }

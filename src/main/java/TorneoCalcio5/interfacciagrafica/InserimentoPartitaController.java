@@ -1,10 +1,10 @@
 package TorneoCalcio5.interfacciagrafica;
 
 import TorneoCalcio5.logica.ElencoSquadre;
+import TorneoCalcio5.logica.Partita;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.ComboBox;
-import TorneoCalcio5.logica.Squadra;
+import java.time.LocalDate;
 
 /**
  * @file InserimentoPartitaController.java
@@ -12,8 +12,6 @@ import TorneoCalcio5.logica.Squadra;
  */
 public class InserimentoPartitaController extends ModificaPartitaController {
 
-    @FXML private ComboBox<Squadra> comboCasa;
-    @FXML private ComboBox<Squadra> comboOspite;
     
     private boolean aggiunto = false;
 
@@ -22,13 +20,22 @@ public class InserimentoPartitaController extends ModificaPartitaController {
      * @param[in] elenco L'elenco squadre per popolare le combobox.
      */
     public void inizializzaAggiungi(ElencoSquadre elenco) {
+        this.partita = new Partita();
+        super.inizializzaModifica(this.partita, elenco);
+        datePickerPartita.setValue(LocalDate.now());
     }
-
+    
+    @FXML
     @Override
     protected void handleConferma(ActionEvent event) {
+        if (aggiornaPartita()) {
+            this.aggiunto = true;
+            this.modificato = true;
+            chiudiFinestra();
+        }
     }
     
     public boolean isAggiunto() {
-        return false;
+        return aggiunto;
     }
 }

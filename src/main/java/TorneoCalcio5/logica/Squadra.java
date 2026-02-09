@@ -1,5 +1,6 @@
 package TorneoCalcio5.logica;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -17,6 +18,9 @@ public class Squadra {
      * @post I campi vengono inizializzati come vuoti o a zero.
      */
     public Squadra() {
+        this.nome = "";
+        this.giocatori = new ArrayList<>();
+        this.punteggio = 0;
     }
 
     /**
@@ -24,6 +28,7 @@ public class Squadra {
      * @param[in] nome Il nome da assegnare.
      */
     public void setNome(String nome) {
+        this.nome = nome;
     }
 
     /**
@@ -31,7 +36,7 @@ public class Squadra {
      * @return Il nome della squadra.
      */
     public String getNome() {
-        return null;
+        return nome;
     }
 
     /**
@@ -40,6 +45,7 @@ public class Squadra {
      * @param[in] nuovaRosa La nuova lista di giocatori.
      */
     public void setGiocatori(List<String> nuovaRosa) {
+        this.giocatori = nuovaRosa;
     }
 
     /**
@@ -47,7 +53,7 @@ public class Squadra {
      * @return La lista dei giocatori.
      */
     public List<String> getGiocatori() {
-        return null;
+        return giocatori;
     }
 
     /**
@@ -55,6 +61,7 @@ public class Squadra {
      * @param[in] p I punti da sommare.
      */
     public void aggiungiPunti(int p) {
+        this.punteggio += p;
     }
 
     /**
@@ -63,7 +70,7 @@ public class Squadra {
      * @param[in] p Il punteggio da impostare.
      */
     public void setPunteggio(int p) {
-        // TODO: Assegnazione
+        this.punteggio = p;
     }
 
     /**
@@ -71,11 +78,11 @@ public class Squadra {
      * @return Il punteggio attuale.
      */
     public int getPunteggio() {
-        return 0;
+        return punteggio;
     }
 
     @Override
     public String toString() {
-        return null;
+        return nome;
     }
 }

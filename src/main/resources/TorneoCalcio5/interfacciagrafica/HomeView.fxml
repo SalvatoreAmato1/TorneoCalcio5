@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="190.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TorneoCalcio5.interfacciagrafica.HomeController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="196.0">
+         <children>
+            <BorderPane layoutY="5.0" prefHeight="392.0" prefWidth="194.0">
+               <top>
+                  <MenuBar prefHeight="25.0" prefWidth="257.0" BorderPane.alignment="CENTER">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="File">
+                        <items>
+                          <MenuItem mnemonicParsing="false" onAction="#handleCarica" text="carica" />
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                              <MenuItem mnemonicParsing="false" onAction="#handleSalva" text="salva" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Inserisci">
+                        <items>
+                          <MenuItem mnemonicParsing="false" onAction="#handleNuovaPartita" text="Partita" />
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                              <MenuItem mnemonicParsing="false" onAction="#handleAggiungiSquadra" text="Squadra" />
+                        </items>
+                      </Menu>
+                        <Menu mnemonicParsing="false" text="Storico">
+                           <items>
+                              <MenuItem mnemonicParsing="false" onAction="#handleVediStorico" text="Apri" />
+                           </items></Menu>
+                    </menus>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </MenuBar>
+               </top>
+               <center>
+                  <TableView fx:id="tabella" onMouseClicked="#handleSquadraSelezionata" prefHeight="367.0" prefWidth="194.0" BorderPane.alignment="CENTER">
+                    <columns>
+                      <TableColumn fx:id="nomeCln" prefWidth="75.0" text="Squadra" />
+                      <TableColumn fx:id="puntiCln" prefWidth="75.0" text="Punteggio" />
+                    </columns>
+                  </TableView>
+               </center>
+            </BorderPane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
