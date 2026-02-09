@@ -1,0 +1,7 @@
+<map id="TorneoCalcio5.logica.ElencoSquadre.getElencoOrdinato" name="TorneoCalcio5.logica.ElencoSquadre.getElencoOrdinato">
+<area shape="rect" id="Node000001" title="Ritorna l&#39;elenco ordinato per classifica." alt="" coords="306,51,492,93"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_partita_controller.html#a8b8463c82a811ea8bf86b27e33548429" title=" " alt="" coords="19,5,244,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="288,57,245,53,245,48,293,57"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_elenco_squadre_test.html#a20d5e01ef2e34fe9b62020e971815db7" title=" " alt="" coords="5,88,258,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="287,88,259,94,258,89,293,87"/>
+</map>

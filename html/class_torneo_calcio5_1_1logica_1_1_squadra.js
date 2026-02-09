@@ -7,5 +7,6 @@ var class_torneo_calcio5_1_1logica_1_1_squadra =
     [ "getPunteggio", "class_torneo_calcio5_1_1logica_1_1_squadra.html#aeb6bc52a93032931b4e801b80b290943", null ],
     [ "setGiocatori", "class_torneo_calcio5_1_1logica_1_1_squadra.html#abf17082fd8bc4bf6db9c969ba7bed43d", null ],
     [ "setNome", "class_torneo_calcio5_1_1logica_1_1_squadra.html#a938efb6260c14b6141b55dbbe77636a4", null ],
-    [ "setPunteggio", "class_torneo_calcio5_1_1logica_1_1_squadra.html#a9b4569ca59c8331dc6f2579cfc1be47c", null ]
+    [ "setPunteggio", "class_torneo_calcio5_1_1logica_1_1_squadra.html#a9b4569ca59c8331dc6f2579cfc1be47c", null ],
+    [ "toString", "class_torneo_calcio5_1_1logica_1_1_squadra.html#ac62744b0c256ff21667e2054cc9acf78", null ]
 ];

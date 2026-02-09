@@ -1,11 +1,21 @@
 var searchData=
 [
-  ['main_0',['main',['../class_torneo_calcio5_1_1logica_1_1_gestore_torneo.html#ac320da5a07b1b626303dd1da9f23978a',1,'TorneoCalcio5::logica::GestoreTorneo']]],
-  ['modificapartita_1',['modificaPartita',['../class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a5f2a4d588a2109cdd666ff4da6312f1a',1,'TorneoCalcio5::logica::ElencoPartite']]],
-  ['modificapartitacontroller_2',['ModificaPartitaController',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_partita_controller.html',1,'TorneoCalcio5::interfacciagrafica']]],
-  ['modificasquadra_3',['modificaSquadra',['../class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html#a55cfc7f0feb9f62e9eeccc10a1ac08ac',1,'TorneoCalcio5::logica::ElencoSquadre']]],
-  ['modificasquadracontroller_4',['ModificaSquadraController',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html',1,'TorneoCalcio5::interfacciagrafica']]],
-  ['modificasquadracontroller_2ejava_5',['ModificaSquadraController.java',['../_modifica_squadra_controller_8java.html',1,'']]],
-  ['mostradettagli_6',['mostraDettagli',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#abd3302d160e616ddc8c464b8d9b485d6',1,'TorneoCalcio5::interfacciagrafica::TabellaController']]],
-  ['mostraerrore_7',['mostraErrore',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#ab6ec8275e18a5c4f7a78461073a20d1f',1,'TorneoCalcio5::interfacciagrafica::ModificaSquadraController']]]
+  ['initialize_0',['initialize',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#a36888be834ce37279aad92863b59e00f',1,'TorneoCalcio5::interfacciagrafica::ModificaSquadraController']]],
+  ['inizializzaaggiungi_1',['inizializzaAggiungi',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_inserimento_partita_controller.html#a72d893ec637af3ab502fd57142637938',1,'TorneoCalcio5.interfacciagrafica.InserimentoPartitaController.inizializzaAggiungi()'],['../class_torneo_calcio5_1_1interfacciagrafica_1_1_inserimento_squadra_controller.html#a973d216e7a15f2001f07db922db0315f',1,'TorneoCalcio5.interfacciagrafica.InserimentoSquadraController.inizializzaAggiungi()']]],
+  ['inizializzahome_2',['inizializzaHome',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_home_controller.html#a6a6d2e6e1f143f9d245e9a355a21f03a',1,'TorneoCalcio5::interfacciagrafica::HomeController']]],
+  ['inizializzamodifica_3',['inizializzaModifica',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_partita_controller.html#a8b8463c82a811ea8bf86b27e33548429',1,'TorneoCalcio5.interfacciagrafica.ModificaPartitaController.inizializzaModifica()'],['../class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#a7ee3ab69f89f34d15955de22b19e3d36',1,'TorneoCalcio5.interfacciagrafica.ModificaSquadraController.inizializzaModifica()']]],
+  ['inizializzastorico_4',['inizializzaStorico',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_storico_controller.html#a6f5ee361a5213c34dae7b4afb3c3d3d2',1,'TorneoCalcio5::interfacciagrafica::StoricoController']]],
+  ['inizializzatabella_5',['inizializzaTabella',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#a0a7476368bf7a234b43c9b7fd41394f9',1,'TorneoCalcio5::interfacciagrafica::TabellaController']]],
+  ['inizializzavisualizza_6',['inizializzaVisualizza',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_visualizza_squadra_controller.html#a6c90e3873c11383fcbd709e4913cf9c2',1,'TorneoCalcio5::interfacciagrafica::VisualizzaSquadraController']]],
+  ['inserimentopartitacontroller_7',['InserimentoPartitaController',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_inserimento_partita_controller.html',1,'TorneoCalcio5::interfacciagrafica']]],
+  ['inserimentopartitacontroller_2ejava_8',['InserimentoPartitaController.java',['../_inserimento_partita_controller_8java.html',1,'']]],
+  ['inserimentosquadracontroller_9',['InserimentoSquadraController',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_inserimento_squadra_controller.html',1,'TorneoCalcio5::interfacciagrafica']]],
+  ['inserimentosquadracontroller_2ejava_10',['InserimentoSquadraController.java',['../_inserimento_squadra_controller_8java.html',1,'']]],
+  ['iofile_11',['IOFile',['../class_torneo_calcio5_1_1logica_1_1_i_o_file.html',1,'TorneoCalcio5::logica']]],
+  ['iofile_2ejava_12',['IOFile.java',['../_i_o_file_8java.html',1,'']]],
+  ['iofiletest_13',['IOFileTest',['../class_torneo_calcio5_1_1logica_1_1_i_o_file_test.html',1,'TorneoCalcio5::logica']]],
+  ['iofiletest_2ejava_14',['IOFileTest.java',['../_i_o_file_test_8java.html',1,'']]],
+  ['isaggiunto_15',['isAggiunto',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_inserimento_partita_controller.html#af3b775f9c5ce04feb68ac06e9d99bc27',1,'TorneoCalcio5.interfacciagrafica.InserimentoPartitaController.isAggiunto()'],['../class_torneo_calcio5_1_1interfacciagrafica_1_1_inserimento_squadra_controller.html#aeccf399acac5186b199632a9fd0b5fd0',1,'TorneoCalcio5.interfacciagrafica.InserimentoSquadraController.isAggiunto()']]],
+  ['iseliminato_16',['isEliminato',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_visualizza_squadra_controller.html#aac5fe7f4d52512c707fcac103c3d5fae',1,'TorneoCalcio5::interfacciagrafica::VisualizzaSquadraController']]],
+  ['ismodificato_17',['isModificato',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_partita_controller.html#ae41350848bab5155e64165904a23ef72',1,'TorneoCalcio5.interfacciagrafica.ModificaPartitaController.isModificato()'],['../class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#a0144301b5565c5eb549a6938b2768024',1,'TorneoCalcio5.interfacciagrafica.ModificaSquadraController.isModificato()'],['../class_torneo_calcio5_1_1interfacciagrafica_1_1_visualizza_squadra_controller.html#a9e16e295fa4680452248cbced32cdd09',1,'TorneoCalcio5.interfacciagrafica.VisualizzaSquadraController.isModificato()']]]
 ];

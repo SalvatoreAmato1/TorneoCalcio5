@@ -1,0 +1,9 @@
+<map id="TorneoCalcio5.logica.Partita.setGolCasa" name="TorneoCalcio5.logica.Partita.setGolCasa">
+<area shape="rect" id="Node000001" title="Viene inizializzato il numero di gol della squadra di casa." alt="" coords="545,39,751,81"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_i_o_file.html#a5950e5ea9b0e4cb68c5f03fb3784d3d7" title="Carica lo storico delle partite da file." alt="" coords="277,5,497,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="527,45,497,43,497,38,532,45"/>
+<area shape="rect" id="Node000004" href="$class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a5f2a4d588a2109cdd666ff4da6312f1a" title="Modifica una partita esistente nello storico. Sostituisce i dati della vecchia partita con quelli del..." alt="" coords="294,72,480,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="532,75,481,84,480,79,527,75"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_i_o_file_test.html#a9b4add4cdaf5857586704be0aa33f31c" title=" " alt="" coords="5,5,229,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="258,27,230,29,229,24,263,26"/>
+</map>

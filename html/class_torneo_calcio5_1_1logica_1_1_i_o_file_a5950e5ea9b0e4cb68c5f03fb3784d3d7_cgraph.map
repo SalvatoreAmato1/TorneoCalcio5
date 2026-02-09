@@ -1,0 +1,19 @@
+<map id="TorneoCalcio5.logica.IOFile.caricaPartite" name="TorneoCalcio5.logica.IOFile.caricaPartite">
+<area shape="rect" id="Node000001" title="Carica lo storico delle partite da file." alt="" coords="5,156,226,199"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a78b3d18f62e5273aa1f8a255b44786d3" title="Aggiunge una partita all&#39;elenco." alt="" coords="298,5,484,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,154,197,106,233,80,272,58,289,52,285,56,275,62,236,84,200,110,142,158"/>
+<area shape="rect" id="Node000005" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#acef6c6ccfba4eb2f6335bb6b23d24c45" title="Viene inizializzata la data della partita." alt="" coords="274,72,508,99"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="161,153,214,130,273,108,304,101,299,104,274,113,216,135,164,158"/>
+<area shape="rect" id="Node000006" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#a11dc72951489e2f1ad896caa34935243" title="Viene inizializzato il numero di gol della squadra di casa." alt="" coords="288,123,494,165"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="225,161,274,157,270,160,227,166"/>
+<area shape="rect" id="Node000007" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#a20477b8b975bac9c5a9ffe02e8209ea5" title="Viene inizializzato il numero di gol della squadra ospite." alt="" coords="288,189,494,232"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="226,188,275,195,270,197,227,193"/>
+<area shape="rect" id="Node000008" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#a3a32c90dcf960ab536c6ba75068f555f" title="Viene inizializzata la squadra di casa." alt="" coords="288,256,494,299"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="165,197,275,242,297,251,292,251,273,246,164,202"/>
+<area shape="rect" id="Node000009" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#ac9c1ae13a22610f2cb7047ca2efe62cb" title="Viene inizializzata la squadra ospite." alt="" coords="288,323,494,365"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="137,196,196,253,234,283,275,308,287,316,282,316,272,313,231,287,193,257,136,202"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a37e6d2dec36910a295e47ad67135f009" title="Ordina le partite per data in ordine decrescente (più recenti prima)." alt="" coords="556,5,742,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="484,24,543,26,538,28,485,29"/>
+<area shape="rect" id="Node000004" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#a4f5f42bc39474a90e4dab63799d596db" title="Restituisce la data della partita." alt="" coords="790,13,1025,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="742,24,777,26,772,27,743,29"/>
+</map>

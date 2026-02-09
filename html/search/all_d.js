@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['tabella_0',['tabella',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#aabdc78cbe884efa0339ad20ae9382b99',1,'TorneoCalcio5::interfacciagrafica::TabellaController']]],
+  ['tabellacontroller_1',['TabellaController',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html',1,'TorneoCalcio5::interfacciagrafica']]],
+  ['tabellacontroller_2ejava_2',['TabellaController.java',['../_tabella_controller_8java.html',1,'']]],
+  ['testaggiuntaeordinamentocronologico_3',['testAggiuntaEOrdinamentoCronologico',['../class_torneo_calcio5_1_1logica_1_1_elenco_partite_test.html#aa07868c4d260ea76efc01ad4f4940a1d',1,'TorneoCalcio5::logica::ElencoPartiteTest']]],
+  ['testaggiuntapunti_4',['testAggiuntaPunti',['../class_torneo_calcio5_1_1logica_1_1_squadra_test.html#a4977f267ec15267a60ea488f924b39af',1,'TorneoCalcio5::logica::SquadraTest']]],
+  ['testapplicapuntipareggio_5',['testApplicaPuntiPareggio',['../class_torneo_calcio5_1_1logica_1_1_partita_test.html#a362e3826243ccd961c9059e730448337',1,'TorneoCalcio5::logica::PartitaTest']]],
+  ['testapplicapuntivittoriacasa_6',['testApplicaPuntiVittoriaCasa',['../class_torneo_calcio5_1_1logica_1_1_partita_test.html#aac33bb3727fd10c4ea93eeb508f42c24',1,'TorneoCalcio5::logica::PartitaTest']]],
+  ['testcasolimitesquadrenulle_7',['testCasoLimiteSquadreNulle',['../class_torneo_calcio5_1_1logica_1_1_partita_test.html#acb026c74f3aa741be2d66ea47bc52226',1,'TorneoCalcio5::logica::PartitaTest']]],
+  ['testcercasquadracaseinsensitive_8',['testCercaSquadraCaseInsensitive',['../class_torneo_calcio5_1_1logica_1_1_elenco_squadre_test.html#a1c98d43568c651ae8935e0c75343fd2e',1,'TorneoCalcio5::logica::ElencoSquadreTest']]],
+  ['testinizializzazionedefault_9',['testInizializzazioneDefault',['../class_torneo_calcio5_1_1logica_1_1_squadra_test.html#a928fb5a5c8e9315af0d51c43dafb8ad0',1,'TorneoCalcio5::logica::SquadraTest']]],
+  ['testintegrazionesalvaecarica_10',['testIntegrazioneSalvaECarica',['../class_torneo_calcio5_1_1logica_1_1_i_o_file_test.html#a9b4add4cdaf5857586704be0aa33f31c',1,'TorneoCalcio5::logica::IOFileTest']]],
+  ['testordinamentoclassifica_11',['testOrdinamentoClassifica',['../class_torneo_calcio5_1_1logica_1_1_elenco_squadre_test.html#a20d5e01ef2e34fe9b62020e971815db7',1,'TorneoCalcio5::logica::ElencoSquadreTest']]],
+  ['testrimozionepartita_12',['testRimozionePartita',['../class_torneo_calcio5_1_1logica_1_1_elenco_partite_test.html#a2712667062c318e90a79446b052f0355',1,'TorneoCalcio5::logica::ElencoPartiteTest']]],
+  ['testsetrosagiocatori_13',['testSetRosaGiocatori',['../class_torneo_calcio5_1_1logica_1_1_squadra_test.html#a1a1a2ba61e017dd48fff4a000a999d8c',1,'TorneoCalcio5::logica::SquadraTest']]],
+  ['torneocalcio5_3a_3ainterfacciagrafica_14',['interfacciagrafica',['../namespace_torneo_calcio5_1_1interfacciagrafica.html',1,'TorneoCalcio5']]],
+  ['torneocalcio5_3a_3alogica_15',['logica',['../namespace_torneo_calcio5_1_1logica.html',1,'TorneoCalcio5']]],
+  ['tostring_16',['toString',['../class_torneo_calcio5_1_1logica_1_1_squadra.html#ac62744b0c256ff21667e2054cc9acf78',1,'TorneoCalcio5::logica::Squadra']]],
+  ['txtgolcasa_17',['txtGolCasa',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_partita_controller.html#a2043546182e8379f82cbb07478ed2e7d',1,'TorneoCalcio5::interfacciagrafica::ModificaPartitaController']]],
+  ['txtgolospite_18',['txtGolOspite',['../class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_partita_controller.html#a3a3c61cda5de4479fb4c6b3becf4fdd9',1,'TorneoCalcio5::interfacciagrafica::ModificaPartitaController']]]
+];

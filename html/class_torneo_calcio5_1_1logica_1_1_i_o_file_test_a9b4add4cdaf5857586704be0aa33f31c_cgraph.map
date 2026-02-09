@@ -1,0 +1,44 @@
+<map id="TorneoCalcio5.logica.IOFileTest.testIntegrazioneSalvaECarica" name="TorneoCalcio5.logica.IOFileTest.testIntegrazioneSalvaECarica">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,444,229,487"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a78b3d18f62e5273aa1f8a255b44786d3" title="Aggiunge una partita all&#39;elenco." alt="" coords="578,5,764,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,443,141,390,173,319,217,243,244,207,275,175,307,149,342,126,416,89,492,61,564,44,560,47,493,67,418,94,344,131,310,154,278,179,248,211,221,246,177,321,146,392,127,444"/>
+<area shape="rect" id="Node000005" href="$class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html#ae715e8c4c466f13bb9d5aa634f02140b" title="Aggiunge una squadra all&#39;elenco." alt="" coords="578,389,764,432"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="210,441,276,429,425,415,564,411,560,413,426,421,277,435,212,446"/>
+<area shape="rect" id="Node000006" href="$class_torneo_calcio5_1_1logica_1_1_i_o_file.html#a5950e5ea9b0e4cb68c5f03fb3784d3d7" title="Carica lo storico delle partite da file." alt="" coords="277,189,497,232"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="130,442,188,361,229,313,275,269,325,238,321,242,278,273,233,317,192,364,134,445"/>
+<area shape="rect" id="Node000010" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#a3a32c90dcf960ab536c6ba75068f555f" title="Viene inizializzata la squadra di casa." alt="" coords="568,256,774,299"/>
+<area shape="poly" id="edge22_Node000001_Node000010" title=" " alt="" coords="144,442,203,401,276,363,345,338,417,318,554,291,550,294,418,323,347,343,278,368,206,406,148,445"/>
+<area shape="rect" id="Node000011" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#ac9c1ae13a22610f2cb7047ca2efe62cb" title="Viene inizializzata la squadra ospite." alt="" coords="568,323,774,365"/>
+<area shape="poly" id="edge23_Node000001_Node000011" title=" " alt="" coords="165,441,218,420,276,401,419,371,555,354,550,357,420,377,277,407,220,425,168,446"/>
+<area shape="rect" id="Node000012" href="$class_torneo_calcio5_1_1logica_1_1_i_o_file.html#a5edb209d602b55d97ccdb3df466e090b" title="Carica le squadre da file." alt="" coords="277,444,497,487"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="228,463,263,464,259,467,230,468"/>
+<area shape="rect" id="Node000014" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#a938efb6260c14b6141b55dbbe77636a4" title="Viene inizializzato il nome della squadra." alt="" coords="545,589,796,616"/>
+<area shape="poly" id="edge21_Node000001_Node000014" title=" " alt="" coords="221,485,498,547,522,561,546,575,571,585,566,585,544,580,520,566,496,552,221,490"/>
+<area shape="rect" id="Node000016" href="$class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a84e73ef19579b24c3c8d48f8d0e4485b" title="Restituisce la lista base delle partite." alt="" coords="294,561,480,604"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="160,485,278,540,311,555,305,556,276,545,160,490"/>
+<area shape="rect" id="Node000017" href="$class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html#a15d769501ca40d3a8b2112cfcf14430f" title="Restituisce l&#39;elenco base delle squadre." alt="" coords="294,628,480,671"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="136,484,196,549,235,584,278,614,289,621,284,621,275,618,232,588,192,553,135,490"/>
+<area shape="rect" id="Node000018" href="$class_torneo_calcio5_1_1logica_1_1_i_o_file.html#a42b6f4ffa4a94d417b13d166b5c541dc" title="Salva lo storico delle partite su file." alt="" coords="279,695,495,737"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="128,484,152,527,185,580,227,634,278,681,286,687,281,687,275,685,223,638,180,583,147,530,128,490"/>
+<area shape="rect" id="Node000019" href="$class_torneo_calcio5_1_1logica_1_1_i_o_file.html#aa03e300e0f5c493774b59df4af1a9c8c" title="Salva le squadre su file." alt="" coords="279,761,495,804"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="125,485,145,539,175,610,220,684,247,718,278,747,284,753,279,752,275,751,243,721,215,687,170,612,140,541,124,490"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a37e6d2dec36910a295e47ad67135f009" title="Ordina le partite per data in ordine decrescente (più recenti prima)." alt="" coords="844,5,1031,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="763,24,831,26,826,28,765,29"/>
+<area shape="rect" id="Node000004" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#a4f5f42bc39474a90e4dab63799d596db" title="Restituisce la data della partita." alt="" coords="1079,13,1313,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1030,24,1066,26,1061,28,1032,29"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="410,187,495,106,517,80,528,69,544,58,565,49,561,53,546,62,531,73,521,84,499,110,414,191"/>
+<area shape="rect" id="Node000007" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#acef6c6ccfba4eb2f6335bb6b23d24c45" title="Viene inizializzata la data della partita." alt="" coords="554,72,788,99"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="414,187,472,146,507,126,544,108,568,102,564,105,546,113,509,130,474,151,417,191"/>
+<area shape="rect" id="Node000008" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#a11dc72951489e2f1ad896caa34935243" title="Viene inizializzato il numero di gol della squadra di casa." alt="" coords="568,123,774,165"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="479,186,564,168,560,171,482,191"/>
+<area shape="rect" id="Node000009" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#a20477b8b975bac9c5a9ffe02e8209ea5" title="Viene inizializzato il numero di gol della squadra ospite." alt="" coords="568,189,774,232"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="496,208,554,209,550,212,498,213"/>
+<area shape="poly" id="edge10_Node000006_Node000010" title=" " alt="" coords="480,230,565,251,560,253,481,235"/>
+<area shape="poly" id="edge11_Node000006_Node000011" title=" " alt="" coords="416,230,475,270,546,308,563,317,558,318,544,313,472,274,416,235"/>
+<area shape="poly" id="edge13_Node000012_Node000005" title=" " alt="" coords="496,442,565,430,560,433,498,447"/>
+<area shape="rect" id="Node000013" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#abf17082fd8bc4bf6db9c969ba7bed43d" title="Viene inizializzata la lista dei giocatori. Sovrascrive la lista attuale con quella fornita." alt="" coords="562,456,779,499"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="497,467,550,471,545,473,498,473"/>
+<area shape="poly" id="edge15_Node000012_Node000014" title=" " alt="" coords="466,484,499,503,515,522,523,541,530,559,547,575,556,582,551,582,543,579,526,562,518,543,510,525,495,507,466,490"/>
+<area shape="rect" id="Node000015" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#a9b4569ca59c8331dc6f2579cfc1be47c" title="Viene inizializzato il punteggio. Utile per reset o caricamento." alt="" coords="562,523,779,565"/>
+<area shape="poly" id="edge16_Node000012_Node000015" title=" " alt="" coords="463,485,546,508,575,518,570,519,544,513,463,490"/>
+</map>

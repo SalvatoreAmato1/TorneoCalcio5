@@ -1,0 +1,13 @@
+<map id="TorneoCalcio5.logica.Squadra.getPunteggio" name="TorneoCalcio5.logica.Squadra.getPunteggio">
+<area shape="rect" id="Node000001" title="Restituisce il punteggio." alt="" coords="883,88,1100,131"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_visualizza_squadra_controller.html#a6c90e3873c11383fcbd709e4913cf9c2" title="Inizializza gli elementi grafici con i dati della squadra." alt="" coords="589,5,835,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="891,83,824,67,824,62,897,83"/>
+<area shape="rect" id="Node000005" href="$class_torneo_calcio5_1_1logica_1_1_squadra_test.html#a4977f267ec15267a60ea488f924b39af" title=" " alt="" coords="615,88,809,131"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="865,109,810,112,810,107,870,109"/>
+<area shape="rect" id="Node000006" href="$class_torneo_calcio5_1_1logica_1_1_squadra_test.html#a928fb5a5c8e9315af0d51c43dafb8ad0" title=" " alt="" coords="610,155,814,197"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="887,134,805,157,804,151,882,135"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#abd3302d160e616ddc8c464b8d9b485d6" title="Apre la finestra di dettaglio di una squadra." alt="" coords="330,13,541,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="571,35,542,37,541,32,576,34"/>
+<area shape="rect" id="Node000004" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#ade60b2133de8dffa8236ebb9f36a6996" title="Gestisce l&#39;evento di selezione di una riga nella tabella. Recupera l&#39;oggetto selezionato e apre la fi..." alt="" coords="5,13,282,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="311,35,283,37,281,32,316,34"/>
+</map>

@@ -1,0 +1,25 @@
+var NAVTREEINDEX1 =
+{
+"classes.html":[1,1],
+"dir_029e587dc26ceef816c9de35fbc417c1.html":[2,0,0,1,0,0],
+"dir_120ed4da3e3217b1e7fc0b4f48568e79.html":[2,0,0,1],
+"dir_22f50572bccd224f7bb5f5b58bf7c7ca.html":[2,0,0,0,0,0,1],
+"dir_5eb159725f84c66aafd839904a4acdd0.html":[2,0,0,0],
+"dir_68267d1309a1af8e8297ef4c3efbcdba.html":[2,0,0],
+"dir_97debbc39e3b917fca663601bb2b0709.html":[2,0,0,1,0],
+"dir_bbfc1d97d643a4b9a38d92948c712f4e.html":[2,0,0,0,0,0],
+"dir_e870f3ca0aac8c48f91c69c5ea7b5070.html":[2,0,0,1,0,0,0],
+"dir_f66820b65fa69a3cf4af0f0f3620ce74.html":[2,0,0,0,0,0,0],
+"dir_fd3f6763802dee1ad875f6c80eac0bda.html":[2,0,0,0,0],
+"files.html":[2,0],
+"functions.html":[1,3,0],
+"functions_func.html":[1,3,1],
+"functions_vars.html":[1,3,2],
+"hierarchy.html":[1,2],
+"index.html":[],
+"namespace_torneo_calcio5_1_1interfacciagrafica.html":[0,0,0,0],
+"namespace_torneo_calcio5_1_1logica.html":[0,0,0,1],
+"namespaces.html":[0,0],
+"pages.html":[],
+"":[0,0,0]
+};

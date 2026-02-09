@@ -1,0 +1,7 @@
+<map id="TorneoCalcio5.interfacciagrafica.ModificaSquadraController.chiudiFinestra" name="TorneoCalcio5.interfacciagrafica.ModificaSquadraController.chiudiFinestra">
+<area shape="rect" id="Node000001" title="Gestisce la chiusura della finestra corrente recuperando lo Stage." alt="" coords="327,39,586,81"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#a571d936c45259724335af613f7c65ffb" title=" " alt="" coords="5,5,279,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="309,45,279,44,279,39,314,44"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1interfacciagrafica_1_1_modifica_squadra_controller.html#a3d9040396cca92c2703b5652b76e92de" title=" " alt="" coords="21,72,263,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="309,76,264,83,263,78,314,75"/>
+</map>

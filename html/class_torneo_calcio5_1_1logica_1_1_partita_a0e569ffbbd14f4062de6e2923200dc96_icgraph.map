@@ -1,0 +1,5 @@
+<map id="TorneoCalcio5.logica.Partita.applicaPunti" name="TorneoCalcio5.logica.Partita.applicaPunti">
+<area shape="rect" id="Node000001" title="Calcola i punti e aggiorna le squadre. Assegna 3 punti per la vittoria, 1 per il pareggio." alt="" coords="270,5,499,48"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_partita_test.html#acb026c74f3aa741be2d66ea47bc52226" title=" " alt="" coords="5,5,222,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,27,222,29,222,24,257,27"/>
+</map>

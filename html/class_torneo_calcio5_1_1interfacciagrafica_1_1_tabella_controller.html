@@ -116,28 +116,121 @@ Collaboration diagram for TorneoCalcio5.interfacciagrafica.TabellaController:</d
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a0a7476368bf7a234b43c9b7fd41394f9" id="r_a0a7476368bf7a234b43c9b7fd41394f9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0a7476368bf7a234b43c9b7fd41394f9">inizializzaTabella</a> (<a class="el" href="class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html">ElencoSquadre</a> lista)</td></tr>
 <tr class="memdesc:a0a7476368bf7a234b43c9b7fd41394f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inizializza la tabella collegandola all'elenco.  <br /></td></tr>
-<tr class="memitem:ab126899b618a2730359fa93f84968f23" id="r_ab126899b618a2730359fa93f84968f23"><td class="memItemLeft"><a id="ab126899b618a2730359fa93f84968f23" name="ab126899b618a2730359fa93f84968f23"></a>
-void&#160;</td><td class="memItemRight"><b>aggiornaTabella</b> ()</td></tr>
-<tr class="memdesc:ab126899b618a2730359fa93f84968f23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aggiorna i dati mostrati nella tabella. <br /></td></tr>
-<tr class="memitem:ade60b2133de8dffa8236ebb9f36a6996" id="r_ade60b2133de8dffa8236ebb9f36a6996"><td class="memItemLeft"><a id="ade60b2133de8dffa8236ebb9f36a6996" name="ade60b2133de8dffa8236ebb9f36a6996"></a>
-void&#160;</td><td class="memItemRight"><b>handleSquadraSelezionata</b> ()  throws IOException </td></tr>
+<tr class="memitem:ab126899b618a2730359fa93f84968f23" id="r_ab126899b618a2730359fa93f84968f23"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab126899b618a2730359fa93f84968f23">aggiornaTabella</a> ()</td></tr>
+<tr class="memdesc:ab126899b618a2730359fa93f84968f23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aggiorna i dati mostrati nella tabella.  <br /></td></tr>
+<tr class="memitem:ade60b2133de8dffa8236ebb9f36a6996" id="r_ade60b2133de8dffa8236ebb9f36a6996"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ade60b2133de8dffa8236ebb9f36a6996">handleSquadraSelezionata</a> ()  throws IOException </td></tr>
+<tr class="memdesc:ade60b2133de8dffa8236ebb9f36a6996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gestisce l'evento di selezione di una riga nella tabella. Recupera l'oggetto selezionato e apre la finestra di dettaglio.  <br /></td></tr>
 <tr class="memitem:abd3302d160e616ddc8c464b8d9b485d6" id="r_abd3302d160e616ddc8c464b8d9b485d6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abd3302d160e616ddc8c464b8d9b485d6">mostraDettagli</a> (<a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a> s)  throws IOException </td></tr>
 <tr class="memdesc:abd3302d160e616ddc8c464b8d9b485d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apre la finestra di dettaglio di una squadra.  <br /></td></tr>
-<tr class="memitem:a836153951b5703e0e1df8059628c30ff" id="r_a836153951b5703e0e1df8059628c30ff"><td class="memItemLeft"><a id="a836153951b5703e0e1df8059628c30ff" name="a836153951b5703e0e1df8059628c30ff"></a>
-void&#160;</td><td class="memItemRight"><b>mostraFinestra</b> (String titolo, Parent root)</td></tr>
+<tr class="memitem:a836153951b5703e0e1df8059628c30ff" id="r_a836153951b5703e0e1df8059628c30ff"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a836153951b5703e0e1df8059628c30ff">mostraFinestra</a> (String titolo, Parent root)</td></tr>
+<tr class="memdesc:a836153951b5703e0e1df8059628c30ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metodo helper per la creazione e visualizzazione di una finestra modale.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aabdc78cbe884efa0339ad20ae9382b99" id="r_aabdc78cbe884efa0339ad20ae9382b99"><td class="memItemLeft"><a id="aabdc78cbe884efa0339ad20ae9382b99" name="aabdc78cbe884efa0339ad20ae9382b99"></a>
-TableView&lt; <a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a> &gt;&#160;</td><td class="memItemRight"><b>tabella</b></td></tr>
-<tr class="memitem:acd4e5659205f53216e7df389b1650619" id="r_acd4e5659205f53216e7df389b1650619"><td class="memItemLeft"><a id="acd4e5659205f53216e7df389b1650619" name="acd4e5659205f53216e7df389b1650619"></a>
-TableColumn&lt; <a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a>, String &gt;&#160;</td><td class="memItemRight"><b>nomeCln</b></td></tr>
-<tr class="memitem:aa54c3497430f63e865ac9bc2185e45dd" id="r_aa54c3497430f63e865ac9bc2185e45dd"><td class="memItemLeft"><a id="aa54c3497430f63e865ac9bc2185e45dd" name="aa54c3497430f63e865ac9bc2185e45dd"></a>
-TableColumn&lt; <a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a>, Integer &gt;&#160;</td><td class="memItemRight"><b>puntiCln</b></td></tr>
-<tr class="memitem:a757c9ff4745773a788e91ac3b7657cf2" id="r_a757c9ff4745773a788e91ac3b7657cf2"><td class="memItemLeft"><a id="a757c9ff4745773a788e91ac3b7657cf2" name="a757c9ff4745773a788e91ac3b7657cf2"></a>
-<a class="el" href="class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html">ElencoSquadre</a>&#160;</td><td class="memItemRight"><b>elenco</b></td></tr>
+<tr class="memitem:aabdc78cbe884efa0339ad20ae9382b99" id="r_aabdc78cbe884efa0339ad20ae9382b99"><td class="memItemLeft">TableView&lt; <a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aabdc78cbe884efa0339ad20ae9382b99">tabella</a></td></tr>
+<tr class="memitem:acd4e5659205f53216e7df389b1650619" id="r_acd4e5659205f53216e7df389b1650619"><td class="memItemLeft">TableColumn&lt; <a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a>, String &gt;&#160;</td><td class="memItemRight"><a class="el" href="#acd4e5659205f53216e7df389b1650619">nomeCln</a></td></tr>
+<tr class="memitem:aa54c3497430f63e865ac9bc2185e45dd" id="r_aa54c3497430f63e865ac9bc2185e45dd"><td class="memItemLeft">TableColumn&lt; <a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a>, Integer &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa54c3497430f63e865ac9bc2185e45dd">puntiCln</a></td></tr>
+<tr class="memitem:a757c9ff4745773a788e91ac3b7657cf2" id="r_a757c9ff4745773a788e91ac3b7657cf2"><td class="memItemLeft"><a class="el" href="class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html">ElencoSquadre</a>&#160;</td><td class="memItemRight"><a class="el" href="#a757c9ff4745773a788e91ac3b7657cf2">elenco</a></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ab126899b618a2730359fa93f84968f23" name="ab126899b618a2730359fa93f84968f23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab126899b618a2730359fa93f84968f23">&#9670;&#160;</a></span>aggiornaTabella()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TorneoCalcio5.interfacciagrafica.TabellaController.aggiornaTabella </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Aggiorna i dati mostrati nella tabella. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_ab126899b618a2730359fa93f84968f23_icgraph.png" border="0" usemap="#aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_ab126899b618a2730359fa93f84968f23_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_ab126899b618a2730359fa93f84968f23_icgraph" id="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_ab126899b618a2730359fa93f84968f23_icgraph">
+<area shape="rect" title="Aggiorna i dati mostrati nella tabella." alt="" coords="589,5,801,48"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#abd3302d160e616ddc8c464b8d9b485d6" title="Apre la finestra di dettaglio di una squadra." alt="" coords="330,5,541,48"/>
+<area shape="poly" title=" " alt="" coords="571,27,541,29,541,24,576,27"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#ade60b2133de8dffa8236ebb9f36a6996" title="Gestisce l&#39;evento di selezione di una riga nella tabella. Recupera l&#39;oggetto selezionato e apre la fi..." alt="" coords="5,5,282,48"/>
+<area shape="poly" title=" " alt="" coords="311,27,282,29,282,24,317,27"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ade60b2133de8dffa8236ebb9f36a6996" name="ade60b2133de8dffa8236ebb9f36a6996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade60b2133de8dffa8236ebb9f36a6996">&#9670;&#160;</a></span>handleSquadraSelezionata()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TorneoCalcio5.interfacciagrafica.TabellaController.handleSquadraSelezionata </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gestisce l'evento di selezione di una riga nella tabella. Recupera l'oggetto selezionato e apre la finestra di dettaglio. </p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td>Se il caricamento del file FXML dei dettagli fallisce. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_ade60b2133de8dffa8236ebb9f36a6996_cgraph.png" border="0" usemap="#aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_ade60b2133de8dffa8236ebb9f36a6996_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_ade60b2133de8dffa8236ebb9f36a6996_cgraph" id="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_ade60b2133de8dffa8236ebb9f36a6996_cgraph">
+<area shape="rect" title="Gestisce l&#39;evento di selezione di una riga nella tabella. Recupera l&#39;oggetto selezionato e apre la fi..." alt="" coords="5,155,282,197"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#abd3302d160e616ddc8c464b8d9b485d6" title="Apre la finestra di dettaglio di una squadra." alt="" coords="330,155,541,197"/>
+<area shape="poly" title=" " alt="" coords="282,173,316,175,311,177,283,179"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#ab126899b618a2730359fa93f84968f23" title="Aggiorna i dati mostrati nella tabella." alt="" coords="612,5,825,48"/>
+<area shape="poly" title=" " alt="" coords="458,152,514,105,550,79,588,58,605,53,600,55,590,62,552,84,517,109,460,157"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_visualizza_squadra_controller.html#a6c90e3873c11383fcbd709e4913cf9c2" title="Inizializza gli elementi grafici con i dati della squadra." alt="" coords="596,72,842,131"/>
+<area shape="poly" title=" " alt="" coords="519,151,593,134,588,136,520,157"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_visualizza_squadra_controller.html#aac5fe7f4d52512c707fcac103c3d5fae" title=" " alt="" coords="592,155,845,197"/>
+<area shape="poly" title=" " alt="" coords="541,173,579,176,574,176,542,179"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_visualizza_squadra_controller.html#a9e16e295fa4680452248cbced32cdd09" title=" " alt="" coords="589,221,848,264"/>
+<area shape="poly" title=" " alt="" coords="529,195,613,217,608,217,529,201"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#a836153951b5703e0e1df8059628c30ff" title="Metodo helper per la creazione e visualizzazione di una finestra modale." alt="" coords="613,288,824,331"/>
+<area shape="poly" title=" " alt="" coords="464,195,521,235,590,274,607,283,602,282,588,278,518,240,463,200"/>
+<area shape="rect" href="class_torneo_calcio5_1_1logica_1_1_squadra.html#aa3ddae234262e7659286a415241e18e7" title="Restituisce la lista dei giocatori." alt="" coords="914,21,1130,64"/>
+<area shape="poly" title=" " alt="" coords="842,75,901,66,896,67,843,80"/>
+<area shape="rect" href="class_torneo_calcio5_1_1logica_1_1_squadra.html#a11b013f87d59bf10a22a24c2339aa26f" title="Restituisce il nome." alt="" coords="896,88,1148,115"/>
+<area shape="poly" title=" " alt="" coords="842,99,884,101,878,102,843,104"/>
+<area shape="rect" href="class_torneo_calcio5_1_1logica_1_1_squadra.html#aeb6bc52a93032931b4e801b80b290943" title="Restituisce il punteggio." alt="" coords="914,139,1130,181"/>
+<area shape="poly" title=" " alt="" coords="842,123,901,136,896,136,842,128"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a0a7476368bf7a234b43c9b7fd41394f9" name="a0a7476368bf7a234b43c9b7fd41394f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a7476368bf7a234b43c9b7fd41394f9">&#9670;&#160;</a></span>inizializzaTabella()</h2>
 
@@ -168,6 +261,18 @@ TableColumn&lt; <a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.h
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_a0a7476368bf7a234b43c9b7fd41394f9_icgraph.png" border="0" usemap="#aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_a0a7476368bf7a234b43c9b7fd41394f9_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_a0a7476368bf7a234b43c9b7fd41394f9_icgraph" id="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_a0a7476368bf7a234b43c9b7fd41394f9_icgraph">
+<area shape="rect" title="Inizializza la tabella collegandola all&#39;elenco." alt="" coords="505,5,725,48"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_home_controller.html#a6a6d2e6e1f143f9d245e9a355a21f03a" title="Inizializza l&#39;applicazione e le strutture dati." alt="" coords="246,5,457,48"/>
+<area shape="poly" title=" " alt="" coords="487,27,457,29,457,24,492,27"/>
+<area shape="rect" href="class_torneo_calcio5_1_1logica_1_1_gestore_torneo.html#aef1e7fbb458afad3472e06faa60e042e" title="Avvia l&#39;applicazione JavaFX." alt="" coords="5,5,198,48"/>
+<area shape="poly" title=" " alt="" coords="227,27,198,29,198,24,233,26"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -201,6 +306,179 @@ TableColumn&lt; <a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.h
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_abd3302d160e616ddc8c464b8d9b485d6_cgraph.png" border="0" usemap="#aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_abd3302d160e616ddc8c464b8d9b485d6_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_abd3302d160e616ddc8c464b8d9b485d6_cgraph" id="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_abd3302d160e616ddc8c464b8d9b485d6_cgraph">
+<area shape="rect" title="Apre la finestra di dettaglio di una squadra." alt="" coords="5,155,217,197"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#ab126899b618a2730359fa93f84968f23" title="Aggiorna i dati mostrati nella tabella." alt="" coords="288,5,500,48"/>
+<area shape="poly" title=" " alt="" coords="133,152,189,105,225,79,263,58,280,52,276,56,266,62,228,84,193,109,137,156"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_visualizza_squadra_controller.html#a6c90e3873c11383fcbd709e4913cf9c2" title="Inizializza gli elementi grafici con i dati della squadra." alt="" coords="271,72,518,131"/>
+<area shape="poly" title=" " alt="" coords="194,152,268,134,264,137,196,156"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_visualizza_squadra_controller.html#aac5fe7f4d52512c707fcac103c3d5fae" title=" " alt="" coords="268,155,521,197"/>
+<area shape="poly" title=" " alt="" coords="217,173,255,175,250,177,218,179"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_visualizza_squadra_controller.html#a9e16e295fa4680452248cbced32cdd09" title=" " alt="" coords="265,221,524,264"/>
+<area shape="poly" title=" " alt="" coords="205,195,288,216,283,218,205,201"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#a836153951b5703e0e1df8059628c30ff" title="Metodo helper per la creazione e visualizzazione di una finestra modale." alt="" coords="289,288,500,331"/>
+<area shape="poly" title=" " alt="" coords="140,195,197,235,266,274,283,283,278,282,264,278,194,240,139,200"/>
+<area shape="rect" href="class_torneo_calcio5_1_1logica_1_1_squadra.html#aa3ddae234262e7659286a415241e18e7" title="Restituisce la lista dei giocatori." alt="" coords="590,21,806,64"/>
+<area shape="poly" title=" " alt="" coords="517,75,577,66,572,67,519,80"/>
+<area shape="rect" href="class_torneo_calcio5_1_1logica_1_1_squadra.html#a11b013f87d59bf10a22a24c2339aa26f" title="Restituisce il nome." alt="" coords="572,88,823,115"/>
+<area shape="poly" title=" " alt="" coords="517,99,559,101,554,102,518,104"/>
+<area shape="rect" href="class_torneo_calcio5_1_1logica_1_1_squadra.html#aeb6bc52a93032931b4e801b80b290943" title="Restituisce il punteggio." alt="" coords="590,139,806,181"/>
+<area shape="poly" title=" " alt="" coords="518,123,577,136,572,137,518,128"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_abd3302d160e616ddc8c464b8d9b485d6_icgraph.png" border="0" usemap="#aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_abd3302d160e616ddc8c464b8d9b485d6_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_abd3302d160e616ddc8c464b8d9b485d6_icgraph" id="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_abd3302d160e616ddc8c464b8d9b485d6_icgraph">
+<area shape="rect" title="Apre la finestra di dettaglio di una squadra." alt="" coords="330,5,541,48"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#ade60b2133de8dffa8236ebb9f36a6996" title="Gestisce l&#39;evento di selezione di una riga nella tabella. Recupera l&#39;oggetto selezionato e apre la fi..." alt="" coords="5,5,282,48"/>
+<area shape="poly" title=" " alt="" coords="311,27,282,29,282,24,317,27"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a836153951b5703e0e1df8059628c30ff" name="a836153951b5703e0e1df8059628c30ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a836153951b5703e0e1df8059628c30ff">&#9670;&#160;</a></span>mostraFinestra()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TorneoCalcio5.interfacciagrafica.TabellaController.mostraFinestra </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>titolo</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Parent</td>          <td class="paramname"><span class="paramname"><em>root</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Metodo helper per la creazione e visualizzazione di una finestra modale. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">titolo</td><td>Il titolo da assegnare alla finestra. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">root</td><td>Il nodo radice della scena caricata dal file FXML. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_a836153951b5703e0e1df8059628c30ff_icgraph.png" border="0" usemap="#aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_a836153951b5703e0e1df8059628c30ff_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_a836153951b5703e0e1df8059628c30ff_icgraph" id="aclass_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller_a836153951b5703e0e1df8059628c30ff_icgraph">
+<area shape="rect" title="Metodo helper per la creazione e visualizzazione di una finestra modale." alt="" coords="589,5,800,48"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#abd3302d160e616ddc8c464b8d9b485d6" title="Apre la finestra di dettaglio di una squadra." alt="" coords="330,5,541,48"/>
+<area shape="poly" title=" " alt="" coords="571,27,542,29,541,24,576,27"/>
+<area shape="rect" href="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html#ade60b2133de8dffa8236ebb9f36a6996" title="Gestisce l&#39;evento di selezione di una riga nella tabella. Recupera l&#39;oggetto selezionato e apre la fi..." alt="" coords="5,5,282,48"/>
+<area shape="poly" title=" " alt="" coords="311,27,282,29,282,24,317,27"/>
+</map>
+</div>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a757c9ff4745773a788e91ac3b7657cf2" name="a757c9ff4745773a788e91ac3b7657cf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a757c9ff4745773a788e91ac3b7657cf2">&#9670;&#160;</a></span>elenco</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html">ElencoSquadre</a> TorneoCalcio5.interfacciagrafica.TabellaController.elenco</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd4e5659205f53216e7df389b1650619" name="acd4e5659205f53216e7df389b1650619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd4e5659205f53216e7df389b1650619">&#9670;&#160;</a></span>nomeCln</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TableColumn&lt;<a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a>, String&gt; TorneoCalcio5.interfacciagrafica.TabellaController.nomeCln</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa54c3497430f63e865ac9bc2185e45dd" name="aa54c3497430f63e865ac9bc2185e45dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa54c3497430f63e865ac9bc2185e45dd">&#9670;&#160;</a></span>puntiCln</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TableColumn&lt;<a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a>, Integer&gt; TorneoCalcio5.interfacciagrafica.TabellaController.puntiCln</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aabdc78cbe884efa0339ad20ae9382b99" name="aabdc78cbe884efa0339ad20ae9382b99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabdc78cbe884efa0339ad20ae9382b99">&#9670;&#160;</a></span>tabella</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TableView&lt;<a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.html">Squadra</a>&gt; TorneoCalcio5.interfacciagrafica.TabellaController.tabella</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -220,7 +498,7 @@ TableColumn&lt; <a class="el" href="class_torneo_calcio5_1_1logica_1_1_squadra.h
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>TorneoCalcio5</b></li><li class="navelem"><b>interfacciagrafica</b></li><li class="navelem"><a href="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html">TabellaController</a></li>
+    <li class="navelem"><b>TorneoCalcio5</b></li><li class="navelem"><a href="namespace_torneo_calcio5_1_1interfacciagrafica.html">interfacciagrafica</a></li><li class="navelem"><a href="class_torneo_calcio5_1_1interfacciagrafica_1_1_tabella_controller.html">TabellaController</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

@@ -1,0 +1,13 @@
+<map id="TorneoCalcio5.logica.ElencoPartiteTest.testRimozionePartita" name="TorneoCalcio5.logica.ElencoPartiteTest.testRimozionePartita">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,216,115"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a78b3d18f62e5273aa1f8a255b44786d3" title="Aggiunge una partita all&#39;elenco." alt="" coords="264,5,450,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,69,263,51,258,54,193,74"/>
+<area shape="rect" id="Node000005" href="$class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a84e73ef19579b24c3c8d48f8d0e4485b" title="Restituisce la lista base delle partite." alt="" coords="264,72,450,115"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="216,91,251,93,245,94,217,96"/>
+<area shape="rect" id="Node000006" href="$class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#aab5b47a137026b3bebb843b3d9d7166c" title="Rimuove una partita dallo storico." alt="" coords="264,139,450,181"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="192,113,263,134,258,135,192,118"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a37e6d2dec36910a295e47ad67135f009" title="Ordina le partite per data in ordine decrescente (più recenti prima)." alt="" coords="498,5,684,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="450,24,485,26,480,27,451,29"/>
+<area shape="rect" id="Node000004" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#a4f5f42bc39474a90e4dab63799d596db" title="Restituisce la data della partita." alt="" coords="732,13,967,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="685,24,719,26,714,27,685,29"/>
+</map>

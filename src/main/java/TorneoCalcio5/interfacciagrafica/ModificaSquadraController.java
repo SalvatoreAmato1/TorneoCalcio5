@@ -16,7 +16,7 @@ import javafx.scene.control.Button;
 
 /**
  * @file ModificaSquadraController.java
- * @brief Gestisce la finestra di modifica.
+ * @brief Gestisce la logica di modifica dei dati di una squadra e dei suoi giocatori.
  */
 public class ModificaSquadraController {
 
@@ -38,6 +38,10 @@ public class ModificaSquadraController {
     
     protected boolean modificato = false;
     
+    /**
+     * @brief Inizializza il controller e imposta i listener per la validazione in tempo reale.
+     * Viene chiamato automaticamente dopo il caricamento del file FXML.
+     */
     @FXML
     public void initialize() {
         nomiGiocatori = Arrays.asList(txtNome1, txtNome2, txtNome3, txtNome4, txtNome5);
@@ -80,6 +84,10 @@ public class ModificaSquadraController {
     public Squadra getSquadra() { 
         return squadra; }
     
+    /**
+     * @brief Restituisce lo stato della modifica.
+     * @return true se l'utente ha confermato le modifiche, false altrimenti.
+     */
     public boolean isModificato() { 
         return modificato; }
 
@@ -123,6 +131,9 @@ public class ModificaSquadraController {
         return true;
     }
 
+    /**
+     * @brief Gestisce la chiusura della finestra corrente recuperando lo Stage.
+     */
     protected void chiudiFinestra() {
         ((Stage) nomeField.getScene().getWindow()).close();
     }
@@ -140,6 +151,10 @@ public class ModificaSquadraController {
         alert.showAndWait();
     }
     
+    /**
+     * @brief Esegue la validazione dei campi di input.
+     * Abilita o disabilita il pulsante di conferma in base alla completezza dei dati.
+     */
     private void validaCampi() {
         boolean nomeSquadraOk = !nomeField.getText().trim().isEmpty();
         boolean giocatoriOk = true;

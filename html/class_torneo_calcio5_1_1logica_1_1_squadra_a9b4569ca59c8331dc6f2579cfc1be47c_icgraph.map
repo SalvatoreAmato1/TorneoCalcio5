@@ -1,0 +1,9 @@
+<map id="TorneoCalcio5.logica.Squadra.setPunteggio" name="TorneoCalcio5.logica.Squadra.setPunteggio">
+<area shape="rect" id="Node000001" title="Viene inizializzato il punteggio. Utile per reset o caricamento." alt="" coords="577,39,793,81"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_i_o_file.html#a5edb209d602b55d97ccdb3df466e090b" title="Carica le squadre da file." alt="" coords="293,5,513,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="559,45,514,42,514,37,564,45"/>
+<area shape="rect" id="Node000004" href="$class_torneo_calcio5_1_1logica_1_1_elenco_squadre_test.html#a20d5e01ef2e34fe9b62020e971815db7" title=" " alt="" coords="277,72,529,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="564,74,530,81,529,76,559,75"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_i_o_file_test.html#a9b4add4cdaf5857586704be0aa33f31c" title=" " alt="" coords="5,5,229,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="274,27,229,29,229,24,279,26"/>
+</map>

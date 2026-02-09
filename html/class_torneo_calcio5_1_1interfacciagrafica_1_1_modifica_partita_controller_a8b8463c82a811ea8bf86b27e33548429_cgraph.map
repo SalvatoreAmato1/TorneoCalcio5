@@ -1,0 +1,15 @@
+<map id="TorneoCalcio5.interfacciagrafica.ModificaPartitaController.inizializzaModifica" name="TorneoCalcio5.interfacciagrafica.ModificaPartitaController.inizializzaModifica">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,148,231,207"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#a4f5f42bc39474a90e4dab63799d596db" title="Restituisce la data della partita." alt="" coords="279,5,513,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,146,202,92,238,65,277,42,296,36,292,39,280,46,241,69,205,96,148,149"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html#a2e16dbd08fbe669036948a4a84d2312d" title="Ritorna l&#39;elenco ordinato per classifica." alt="" coords="303,56,489,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,145,278,108,302,102,297,105,280,113,187,150"/>
+<area shape="rect" id="Node000004" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#aeadb4ad70ac8bb7826f33285eb77db48" title="Restituisce i gol della squadra di casa." alt="" coords="293,123,499,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="230,161,280,157,275,159,232,166"/>
+<area shape="rect" id="Node000005" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#a0e652ce56be643af972aa92a4dfdda0a" title="Restituisce i gol della squadra ospite." alt="" coords="293,189,499,232"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="231,188,280,196,275,197,232,194"/>
+<area shape="rect" id="Node000006" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#aefa990d42731a66dac4d4e21871a2e4f" title="Restituisce la squadra di casa." alt="" coords="293,256,499,299"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="186,205,280,241,302,251,297,251,278,247,186,210"/>
+<area shape="rect" id="Node000007" href="$class_torneo_calcio5_1_1logica_1_1_partita.html#ac1f8780958b72854b0ff3060a871f461" title="Restituisce la squadra ospite." alt="" coords="293,323,499,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="148,204,206,258,242,285,280,308,293,317,288,316,277,313,239,289,203,262,146,210"/>
+</map>

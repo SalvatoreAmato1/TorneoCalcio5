@@ -1,0 +1,7 @@
+<map id="TorneoCalcio5.logica.SquadraTest.testSetRosaGiocatori" name="TorneoCalcio5.logica.SquadraTest.testSetRosaGiocatori">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,200,81"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#aa3ddae234262e7659286a415241e18e7" title="Restituisce la lista dei giocatori." alt="" coords="248,5,464,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,45,235,42,230,44,201,50"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#abf17082fd8bc4bf6db9c969ba7bed43d" title="Viene inizializzata la lista dei giocatori. Sovrascrive la lista attuale con quella fornita." alt="" coords="248,72,464,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,70,235,77,229,77,200,75"/>
+</map>

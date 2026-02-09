@@ -1,0 +1,7 @@
+<map id="TorneoCalcio5.logica.SquadraTest.testAggiuntaPunti" name="TorneoCalcio5.logica.SquadraTest.testAggiuntaPunti">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,200,81"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#ac5273ae4164a0f0a51a5f34bc86f660e" title="Viene aggiornato il punteggio aggiungendo i punti." alt="" coords="248,5,494,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,45,235,43,229,45,201,51"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#aeb6bc52a93032931b4e801b80b290943" title="Restituisce il punteggio." alt="" coords="263,72,479,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,69,250,78,245,78,200,75"/>
+</map>

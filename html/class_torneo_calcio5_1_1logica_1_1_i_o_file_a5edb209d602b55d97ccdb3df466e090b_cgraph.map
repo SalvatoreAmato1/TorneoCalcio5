@@ -1,0 +1,11 @@
+<map id="TorneoCalcio5.logica.IOFile.caricaSquadre" name="TorneoCalcio5.logica.IOFile.caricaSquadre">
+<area shape="rect" id="Node000001" title="Carica le squadre da file." alt="" coords="5,101,226,144"/>
+<area shape="rect" id="Node000002" href="$class_torneo_calcio5_1_1logica_1_1_elenco_squadre.html#ae715e8c4c466f13bb9d5aa634f02140b" title="Aggiunge una squadra all&#39;elenco." alt="" coords="306,5,492,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,98,273,57,299,52,294,54,275,63,168,103"/>
+<area shape="rect" id="Node000003" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#abf17082fd8bc4bf6db9c969ba7bed43d" title="Viene inizializzata la lista dei giocatori. Sovrascrive la lista attuale con quella fornita." alt="" coords="291,72,508,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,109,278,105,273,107,227,114"/>
+<area shape="rect" id="Node000004" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#a938efb6260c14b6141b55dbbe77636a4" title="Viene inizializzato il nome della squadra." alt="" coords="274,139,525,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="226,131,261,137,255,138,226,137"/>
+<area shape="rect" id="Node000005" href="$class_torneo_calcio5_1_1logica_1_1_squadra.html#a9b4569ca59c8331dc6f2579cfc1be47c" title="Viene inizializzato il punteggio. Utile per reset o caricamento." alt="" coords="291,189,508,232"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="177,142,274,175,301,185,296,185,273,180,176,147"/>
+</map>

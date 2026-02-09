@@ -5,5 +5,6 @@ var class_torneo_calcio5_1_1logica_1_1_elenco_partite =
     [ "getElencoBase", "class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a84e73ef19579b24c3c8d48f8d0e4485b", null ],
     [ "getElencoOsservabile", "class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a1f94baf31228a671bbc5959656c7df7b", null ],
     [ "modificaPartita", "class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a5f2a4d588a2109cdd666ff4da6312f1a", null ],
+    [ "ordinaPerData", "class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#a37e6d2dec36910a295e47ad67135f009", null ],
     [ "removePartita", "class_torneo_calcio5_1_1logica_1_1_elenco_partite.html#aab5b47a137026b3bebb843b3d9d7166c", null ]
 ];
