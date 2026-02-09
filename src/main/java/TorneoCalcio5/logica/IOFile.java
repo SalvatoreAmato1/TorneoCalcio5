@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.*;
 import java.time.LocalDate;
 import java.util.Arrays;
+import java.util.ArrayList;
 
 /**
  * @file IOFile.java
@@ -31,14 +32,20 @@ public class IOFile {
      */
     public static ElencoSquadre caricaSquadre(String filename) throws Exception {
         ElencoSquadre elenco = new ElencoSquadre();
-        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+        File f = new File(filename);
+        if (!f.exists()) return elenco;
+        try (BufferedReader br = new BufferedReader(new FileReader(f))) {
             String linea;
             while ((linea = br.readLine()) != null) {
-                String[] parti = linea.split(";");
+                if (linea.trim().isEmpty()) continue;
+                String[] parti = linea.split(";", -1);
                 Squadra s = new Squadra();
                 s.setNome(parti[0]);
                 s.setPunteggio(Integer.parseInt(parti[1]));
-                if (parti.length > 2) s.setGiocatori(Arrays.asList(parti[2].split(",")));
+                if (parti.length > 2 && !parti[2].isEmpty()) {
+                    String[] rosaArray = parti[2].split(",");
+                    s.setGiocatori(new ArrayList<>(Arrays.asList(rosaArray)));
+                }
                 elenco.addSquadra(s);
             }
         }
@@ -55,8 +62,11 @@ public class IOFile {
     public static void salvaPartite(ElencoPartite elenco, String filename) throws IOException {
         try (PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(filename)))) {
             for (Partita p : elenco.getElencoBase()) {
-                pw.println(p.getSquadraCasa().getNome() + ";" + p.getGolCasa() + ";" + 
-                           p.getGolOspite() + ";" + p.getSquadraOspite().getNome() + ";" + p.getData());
+                pw.println(p.getSquadraCasa().getNome() + ";" + 
+                           p.getGolCasa() + ";" + 
+                           p.getGolOspite() + ";" + 
+                           p.getSquadraOspite().getNome() + ";" + 
+                           p.getData());
             }
         }
     }
@@ -69,18 +79,18 @@ public class IOFile {
      */
     public static ElencoPartite caricaPartite(String filename, ElencoSquadre squadre) throws Exception {
         ElencoPartite elenco = new ElencoPartite();
-        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+        File f = new File(filename);
+        if (!f.exists()) return elenco;
+        try (BufferedReader br = new BufferedReader(new FileReader(f))) {
             String linea;
             while ((linea = br.readLine()) != null) {
-                String[] parti = linea.split(";");
+                String[] parti = linea.split(";", -1);
                 Partita p = new Partita();
-                for (Squadra s : squadre.getElencoBase()) {
-                    if (s.getNome().equals(parti[0])) p.setSquadraCasa(s);
-                    if (s.getNome().equals(parti[3])) p.setSquadraOspite(s);
-                }
+                p.setSquadraCasa(squadre.cercaSquadra(parti[0]));
                 p.setGolCasa(Integer.parseInt(parti[1]));
                 p.setGolOspite(Integer.parseInt(parti[2]));
-                p.setData(LocalDate.parse(parti[4]));
+                p.setSquadraOspite(squadre.cercaSquadra(parti[3]));
+                p.setData(LocalDate.parse(parti[4]));              
                 elenco.addPartita(p);
             }
         }

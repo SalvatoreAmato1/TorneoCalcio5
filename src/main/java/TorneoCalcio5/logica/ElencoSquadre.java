@@ -63,7 +63,7 @@ public class ElencoSquadre {
         vecchia.setGiocatori(new ArrayList<>(nuova.getGiocatori()));
         aggiornaElenco();
     }
-
+    
     /**
      * @brief Ritorna l'elenco ordinato per classifica.
      * @return ObservableList ordinata.
@@ -71,12 +71,7 @@ public class ElencoSquadre {
     public ObservableList<Squadra> getElencoOrdinato() {
         return elencoOrdinato;
     }
-    
-    //public ArrayList<Squadra> getElencoBase() { 
-       // return elenco; 
-    //}
 
-    
     /**
      * @brief Ricalcola classifica basandosi sui risultati.
      * @param[in] elencoPartite Il riferimento allo storico delle partite da analizzare.
@@ -103,5 +98,19 @@ public class ElencoSquadre {
      */
     public ArrayList<Squadra> getElencoBase() { 
         return elenco;
+    }
+    
+    /**
+    * @brief Cerca una squadra nell'elenco in base al nome.
+    * @param[in] nome Il nome della squadra da cercare.
+    * @return L'oggetto Squadra se trovato, null altrimenti.
+    */
+    public Squadra cercaSquadra(String nome) {
+    for (Squadra s : elenco) {
+        if (s.getNome().equalsIgnoreCase(nome)) {
+            return s;
+        }
+    }
+    return null;
     }
 }

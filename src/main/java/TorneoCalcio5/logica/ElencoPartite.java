@@ -3,6 +3,7 @@ package TorneoCalcio5.logica;
 import java.util.ArrayList;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import java.util.Comparator;
 
 /**
  * @file ElencoPartite.java
@@ -21,6 +22,14 @@ public class ElencoPartite {
         elenco = new ArrayList<>();
         elencoOsservabile = FXCollections.observableArrayList();
     }
+    
+    /**
+     * @brief Ordina le partite per data in ordine decrescente (più recenti prima).
+    */
+    public void ordinaPerData() {
+        elenco.sort(Comparator.comparing(Partita::getData).reversed());
+        elencoOsservabile.setAll(elenco);
+    }
 
     /**
      * @brief Aggiunge una partita all'elenco.
@@ -28,7 +37,7 @@ public class ElencoPartite {
      */
     public void addPartita(Partita p) {
         elenco.add(p);
-        elencoOsservabile.setAll(elenco);
+        ordinaPerData();
     }
     
     /**

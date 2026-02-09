@@ -1,14 +1,16 @@
 package TorneoCalcio5.interfacciagrafica;
 
-import TorneoCalcio5.logica.Squadra;
 import TorneoCalcio5.logica.ElencoSquadre;
+import TorneoCalcio5.logica.Squadra;
 import javafx.fxml.FXML;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.scene.Parent;
-import javafx.stage.Stage;
-import javafx.scene.Scene;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Modality;
+import javafx.stage.Stage;
+import javafx.fxml.FXMLLoader;
 import java.io.IOException;
 
 /**
@@ -28,16 +30,28 @@ public class TabellaController {
      * @param[in] lista L'elenco dati.
      */
     protected void inizializzaTabella(ElencoSquadre lista) {
+        this.elenco = lista;
+        
+        nomeCln.setCellValueFactory(new PropertyValueFactory<>("nome"));
+
+        puntiCln.setCellValueFactory(new PropertyValueFactory<>("punteggio"));
+        
+        tabella.setItems(elenco.getElencoOrdinato());
     }
 
     /**
      * @brief Aggiorna i dati mostrati nella tabella.
      */
     protected void aggiornaTabella() {
+        tabella.refresh();
     }
 
     @FXML
     protected void handleSquadraSelezionata() throws IOException {
+        Squadra selezionata = tabella.getSelectionModel().getSelectedItem();
+        if (selezionata != null) {
+            mostraDettagli(selezionata);
+        }
     }
 
     /**
@@ -45,8 +59,25 @@ public class TabellaController {
      * @param[in] s La squadra da visualizzare.
      */
     protected void mostraDettagli(Squadra s) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/TorneoCalcio5/interfacciagrafica/VisualizzaSquadraView.fxml"));
+        Parent root = loader.load();  
+        VisualizzaSquadraController controller = loader.getController();
+        controller.inizializzaVisualizza(s, elenco);
+        mostraFinestra("Dettagli Squadra: " + s.getNome(), root);
+        if (controller.isEliminato()) {
+            elenco.removeSquadra(s);
+            aggiornaTabella();
+        } 
+        else if (controller.isModificato()) {
+            aggiornaTabella();
+        }
     }
 
     protected void mostraFinestra(String titolo, Parent root) {
+        Stage stage = new Stage();
+        stage.setTitle(titolo);
+        stage.setScene(new Scene(root));
+        stage.initModality(Modality.APPLICATION_MODAL); 
+        stage.showAndWait();
     }
 }

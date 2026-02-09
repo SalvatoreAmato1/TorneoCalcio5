@@ -22,9 +22,7 @@
 
             <VBox prefHeight="264.0" prefWidth="650.0" spacing="20.0" VBox.vgrow="ALWAYS">
                <children>
-                  <Label fx:id="lblNomeSquadra" text="Squadra: [Nome]" textFill="#2980b9">
-                     <font> <Font name="System Bold Italic" size="18.0" /> </font>
-                  </Label>
+                  <TextField fx:id="nomeField" prefHeight="39.0" prefWidth="114.0" promptText="nome squadra" />
                   
                   <HBox spacing="10.0" style="-fx-background-color: #ecf0f1;">
                      <children>
@@ -44,34 +42,34 @@
                   </HBox>
                   <HBox layoutX="30.0" layoutY="124.0" spacing="10.0">
                      <children>
-                        <TextField fx:id="txtNome11" prefWidth="150.0" promptText="Nome" />
-                        <TextField fx:id="txtCognome11" prefWidth="150.0" promptText="Cognome" />
-                        <DatePicker fx:id="dpData11" prefWidth="150.0" />
+                        <TextField fx:id="txtNome2" prefWidth="150.0" promptText="Nome" />
+                        <TextField fx:id="txtCognome2" prefWidth="150.0" promptText="Cognome" />
+                        <DatePicker fx:id="dpData2" prefWidth="150.0" />
                      </children>
                   </HBox>
                   <HBox layoutX="30.0" layoutY="169.0" spacing="10.0">
                      <children>
-                        <TextField fx:id="txtNome111" prefWidth="150.0" promptText="Nome" />
-                        <TextField fx:id="txtCognome111" prefWidth="150.0" promptText="Cognome" />
-                        <DatePicker fx:id="dpData111" prefWidth="150.0" />
+                        <TextField fx:id="txtNome3" prefWidth="150.0" promptText="Nome" />
+                        <TextField fx:id="txtCognome3" prefWidth="150.0" promptText="Cognome" />
+                        <DatePicker fx:id="dpData3" prefWidth="150.0" />
                      </children>
                   </HBox>
                   <HBox layoutX="30.0" layoutY="214.0" spacing="10.0">
                      <children>
-                        <TextField fx:id="txtNome1111" prefWidth="150.0" promptText="Nome" />
-                        <TextField fx:id="txtCognome1111" prefWidth="150.0" promptText="Cognome" />
-                        <DatePicker fx:id="dpData1111" prefWidth="150.0" />
+                        <TextField fx:id="txtNome4" prefWidth="150.0" promptText="Nome" />
+                        <TextField fx:id="txtCognome4" prefWidth="150.0" promptText="Cognome" />
+                        <DatePicker fx:id="dpData4" prefWidth="150.0" />
                      </children>
                   </HBox>
                   <HBox layoutX="30.0" layoutY="259.0" spacing="10.0">
                      <children>
-                        <TextField fx:id="txtNome11111" prefWidth="150.0" promptText="Nome" />
-                        <TextField fx:id="txtCognome11111" prefWidth="150.0" promptText="Cognome" />
-                        <DatePicker fx:id="dpData11111" prefWidth="150.0" />
+                        <TextField fx:id="txtNome5" prefWidth="150.0" promptText="Nome" />
+                        <TextField fx:id="txtCognome5" prefWidth="150.0" promptText="Cognome" />
+                        <DatePicker fx:id="dpData5" prefWidth="150.0" />
                      </children>
                   </HBox>
                   <HBox layoutX="30.0" layoutY="124.0" spacing="10.0" />
-                  <Button mnemonicParsing="false" style="-fx-background-color: #27ae60;" text="CONFERMA">
+                  <Button fx:id="btnConferma" mnemonicParsing="false" onAction="#handleConferma" style="-fx-background-color: #27ae60;" text="CONFERMA">
                      <font>
                         <Font size="18.0" />
                      </font>

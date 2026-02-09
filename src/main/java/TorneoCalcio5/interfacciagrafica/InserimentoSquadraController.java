@@ -16,16 +16,24 @@ public class InserimentoSquadraController extends ModificaSquadraController {
      * @brief Inizializza la finestra vuota passando l'elenco per i controlli.
      * @param[in] elenco L'elenco attuale delle squadre.
      */
-    public void inizializzaAggiungi(ElencoSquadre elenco) { 
+    public void inizializzaAggiungi(ElencoSquadre elenco) {
+        super.inizializzaModifica(new Squadra(), elenco);
     }
 
     @Override
     protected void handleConferma(ActionEvent event) {
+        if (super.aggiornaSquadra()) {
+            this.aggiunto = true; 
+            this.modificato = true;
+            super.chiudiFinestra();
+        }
     }
 
     /**
      * @brief Verifica se la partita è stata aggiunta.
      * @return true se l'operazione è stata confermata.
      */
-    public boolean isAggiunto() { return aggiunto; }
+    public boolean isAggiunto() { 
+        return aggiunto; 
+    }
 }

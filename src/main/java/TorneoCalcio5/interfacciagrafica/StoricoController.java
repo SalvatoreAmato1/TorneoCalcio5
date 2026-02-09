@@ -6,9 +6,15 @@ import TorneoCalcio5.logica.ElencoSquadre;
 import TorneoCalcio5.logica.Squadra;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
+import java.io.IOException;
 import java.time.LocalDate;
 
 /**
@@ -33,14 +39,59 @@ public class StoricoController {
      * @param[in] squadre L'elenco delle squadre (serve per il ricalcolo classifica).
      */
     public void inizializzaStorico(ElencoPartite partite, ElencoSquadre squadre) {
+        this.elencoPartite = partite;
+        this.elencoSquadre = squadre;
+        dataCln.setCellValueFactory(new PropertyValueFactory<>("data"));
+        casaCln.setCellValueFactory(new PropertyValueFactory<>("squadraCasa"));
+        golCasaCln.setCellValueFactory(new PropertyValueFactory<>("golCasa"));
+        golOspiteCln.setCellValueFactory(new PropertyValueFactory<>("golOspite"));
+        ospiteCln.setCellValueFactory(new PropertyValueFactory<>("squadraOspite"));
+
+        tabellaStorico.setItems(elencoPartite.getElencoOsservabile());
     }
 
     @FXML
     private void handleModificaPartita(ActionEvent event) {
+        Partita selezionata = tabellaStorico.getSelectionModel().getSelectedItem();
+        if (selezionata != null) {
+            try {
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("ModificaPartitaView.fxml"));
+                Parent root = loader.load();
+                
+                ModificaPartitaController controller = loader.getController();
+                controller.inizializzaModifica(selezionata, elencoSquadre);
+
+                Stage stage = new Stage();
+                stage.setTitle("Modifica Partita");
+                stage.initModality(Modality.APPLICATION_MODAL);
+                stage.setScene(new Scene(root));
+                stage.showAndWait();
+
+                if (controller.isModificato()) {
+                    aggiornaClassificaETabella();
+                }
+            } catch (IOException e) {
+                e.printStackTrace(); // Gestione obbligatoria per loader.load()
+            }
+        }
     }
 
     @FXML
     private void handleEliminaPartita(ActionEvent event) {
+        Partita selezionata = tabellaStorico.getSelectionModel().getSelectedItem();
+        if (selezionata != null) {
+            elencoPartite.removePartita(selezionata);
+            aggiornaClassificaETabella();
+        }
+    }
+    
+    /**
+     * @brief Resetta i punti, riapplica le partite e ordina cronologicamente.
+     */
+    private void aggiornaClassificaETabella() {
+        elencoPartite.ordinaPerData(); 
+        elencoSquadre.ricalcolaClassifica(elencoPartite); 
+        tabellaStorico.refresh();
     }
 
     @FXML
