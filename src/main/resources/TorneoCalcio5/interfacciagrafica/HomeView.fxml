@@ -30,7 +30,10 @@
                               <MenuItem mnemonicParsing="false" onAction="#handleAggiungiSquadra" text="Squadra" />
                         </items>
                       </Menu>
-                        <Menu mnemonicParsing="false" onAction="#handleVediStorico" text="Storico" />
+                        <Menu mnemonicParsing="false" text="Storico">
+                           <items>
+                              <MenuItem mnemonicParsing="false" onAction="#handleVediStorico" text="Apri" />
+                           </items></Menu>
                     </menus>
                      <opaqueInsets>
                         <Insets />

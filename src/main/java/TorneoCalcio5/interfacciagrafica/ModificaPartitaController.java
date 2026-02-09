@@ -12,9 +12,9 @@ public class ModificaPartitaController {
 
     @FXML protected TextField txtGolCasa; 
     @FXML protected TextField txtGolOspite;
-    protected DatePicker datePickerPartita;
-    protected ComboBox<Squadra> comboCasa;
-    protected ComboBox<Squadra> comboOspite;
+    @FXML protected DatePicker datePickerPartita;
+    @FXML protected ComboBox<Squadra> comboCasa;
+    @FXML protected ComboBox<Squadra> comboOspite;
     
     protected Partita partita;
     protected boolean modificato = false;
@@ -50,7 +50,8 @@ public class ModificaPartitaController {
     
     public boolean isModificato() { 
         return modificato; }
-
+    
+    @FXML
     protected void handleConferma(ActionEvent event) {
         if (aggiornaPartita()) {
             this.modificato = true;

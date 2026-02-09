@@ -56,9 +56,16 @@ public class StoricoController {
         if (selezionata != null) {
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("ModificaPartitaView.fxml"));
+            
+            // 1. CREIAMO IL CONTROLLER MANUALMENTE (visto che nel FXML non c'è più)
+                ModificaPartitaController controller = new ModificaPartitaController();
+            
+            // 2. LO IMPOSTIAMO NEL LOADER PRIMA DI CARICARE
+                loader.setController(controller);
+            
                 Parent root = loader.load();
-                
-                ModificaPartitaController controller = loader.getController();
+            
+            // 3. INIZIALIZZIAMO
                 controller.inizializzaModifica(selezionata, elencoSquadre);
 
                 Stage stage = new Stage();
@@ -71,7 +78,7 @@ public class StoricoController {
                     aggiornaClassificaETabella();
                 }
             } catch (IOException e) {
-                e.printStackTrace(); // Gestione obbligatoria per loader.load()
+                e.printStackTrace();
             }
         }
     }
@@ -96,5 +103,7 @@ public class StoricoController {
 
     @FXML
     private void handleEsci(ActionEvent event) {
+        Stage stage = (Stage) tabellaStorico.getScene().getWindow();
+        stage.close();
     }
 }

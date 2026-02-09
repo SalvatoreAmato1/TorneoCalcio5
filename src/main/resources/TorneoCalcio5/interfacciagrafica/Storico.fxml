@@ -28,10 +28,11 @@
                <children>
                   <TableView fx:id="tabellaStorico" prefHeight="387.0" prefWidth="628.0" style="-fx-font-size: 14px;" VBox.vgrow="ALWAYS">
                     <columns>
-                      <TableColumn fx:id="colData" maxWidth="120.0" minWidth="100.0" text="DATA" />
-                      <TableColumn fx:id="colSquadraCasa" prefWidth="200.0" style="-fx-alignment: CENTER-RIGHT; -fx-padding: 0 15 0 0;" text="SQUADRA CASA" />
-                      <TableColumn fx:id="colRisultato" maxWidth="100.0" minWidth="80.0" style="-fx-alignment: CENTER; -fx-font-weight: bold; -fx-text-fill: #e67e22;" text="RISULTATO" />
-                      <TableColumn fx:id="colSquadraOspite" prefWidth="200.0" style="-fx-alignment: CENTER-LEFT; -fx-padding: 0 0 0 15;" text="SQUADRA OSPITE" />
+                      <TableColumn fx:id="dataCln" maxWidth="120.0" minWidth="100.0" text="DATA" />
+                      <TableColumn fx:id="casaCln" prefWidth="201.0" style="-fx-alignment: CENTER-RIGHT; -fx-padding: 0 15 0 0;" text="SQUADRA CASA" />
+                      <TableColumn fx:id="golCasaCln" maxWidth="151.0" minWidth="72.0" prefWidth="72.0" style="-fx-alignment: CENTER; -fx-font-weight: bold; -fx-text-fill: #e67e22;" text="GOL CASA" />
+                        <TableColumn fx:id="golOspiteCln" maxWidth="100.0" minWidth="80.0" prefWidth="92.0" style="-fx-alignment: CENTER; -fx-font-weight: bold; -fx-text-fill: #e67e22;" text="GOL OSPITE" />
+                      <TableColumn fx:id="ospiteCln" prefWidth="148.0" style="-fx-alignment: CENTER-LEFT; -fx-padding: 0 0 0 15;" text="SQUADRA OSPITE" />
                     </columns>
                      <columnResizePolicy>
                         <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
@@ -40,9 +41,9 @@
 
                   <HBox alignment="CENTER_RIGHT" spacing="15.0">
                      <children>
-                        <Button mnemonicParsing="false" onAction="#handleModifica" prefHeight="40.0" prefWidth="150.0" style="-fx-background-radius: 5;" text="MODIFICA PARTITA" />
-                        <Button mnemonicParsing="false" onAction="#tornaAlMenu" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-background-radius: 5;" text="TORNA AL MENÙ" />
-                        <Button mnemonicParsing="false" onAction="#Elimina" prefHeight="40.0" prefWidth="150.00" style="-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-backgrouund-radius: 5:" text="ELIMINA" />
+                        <Button mnemonicParsing="false" onAction="#handleModificaPartita" prefHeight="40.0" prefWidth="150.0" style="-fx-background-radius: 5;" text="MODIFICA PARTITA" />
+                        <Button mnemonicParsing="false" onAction="#handleEsci" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-background-radius: 5;" text="TORNA AL MENÙ" />
+                        <Button mnemonicParsing="false" onAction="#handleEliminaPartita" prefHeight="40.0" prefWidth="150.00" style="-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-backgrouund-radius: 5:" text="ELIMINA" />
                      </children>
                   </HBox>
                </children>

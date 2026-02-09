@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox alignment="TOP_CENTER" prefHeight="450.0" prefWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tuopackage.ModificaPartitaController">
+<VBox alignment="TOP_CENTER" prefHeight="450.0" prefWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
    <children>
       <HBox alignment="CENTER" prefHeight="60.0" style="-fx-background-color: #2c3e50;">
          <children>
@@ -22,7 +24,7 @@
                   <VBox alignment="CENTER" spacing="10.0">
                      <children>
                         <Label text="SQUADRA CASA" textFill="#2980b9" />
-                        <ComboBox fx:id="comboSquadraCasa" prefWidth="180.0" promptText="Seleziona..." />
+                        <ComboBox fx:id="comboCasa" prefWidth="180.0" promptText="Seleziona..." />
                         <TextField fx:id="txtGolCasa" alignment="CENTER" maxWidth="70.0" promptText="Gol" style="-fx-font-size: 18px;" />
                      </children>
                   </VBox>
@@ -35,7 +37,7 @@
                   <VBox alignment="CENTER" spacing="10.0">
                      <children>
                         <Label text="SQUADRA OSPITE" textFill="#c0392b" />
-                        <ComboBox fx:id="comboSquadraOspite" prefWidth="180.0" promptText="Seleziona..." />
+                        <ComboBox fx:id="comboOspite" prefWidth="180.0" promptText="Seleziona..." />
                         <TextField fx:id="txtGolOspite" alignment="CENTER" maxWidth="70.0" promptText="Gol" style="-fx-font-size: 18px;" />
                      </children>
                   </VBox>
@@ -44,7 +46,7 @@
 
             <HBox alignment="CENTER" spacing="10.0">
                <children>
-                  <DatePicker fx:id="dpData" prefWidth="150.0" promptText="Scegli data..."/>
+                  <DatePicker fx:id="datePickerPartita" prefWidth="150.0" promptText="Scegli data..." />
                </children>
             </HBox>
          </children>
@@ -52,12 +54,8 @@
 
       <HBox alignment="CENTER" spacing="30.0">
          <children>
-            <Button onAction="#handleAnnulla" prefHeight="40.0" prefWidth="130.0" 
-                    style="-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-background-radius: 5; -fx-font-weight: bold;" 
-                    text="ANNULLA" />
-            <Button onAction="#handleSalva" prefHeight="40.0" prefWidth="130.0" 
-                    style="-fx-background-color: #27ae60; -fx-text-fill: white; -fx-background-radius: 5; -fx-font-weight: bold;" 
-                    text="CONFERMA" />
+            <Button onAction="#handleAnnulla" prefHeight="40.0" prefWidth="130.0" style="-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-background-radius: 5; -fx-font-weight: bold;" text="ANNULLA" />
+            <Button fx:id="btnConferma" onAction="#handleConferma" prefHeight="40.0" prefWidth="130.0" style="-fx-background-color: #27ae60; -fx-text-fill: white; -fx-background-radius: 5; -fx-font-weight: bold;" text="CONFERMA" />
          </children>
          <padding><Insets bottom="30.0" /></padding>
       </HBox>
